@@ -1,0 +1,26 @@
+#!/bin/sh
+
+RDIO_SERVER=http://localhost:8083
+
+play(){
+  curl --data "key=$1" $RDIO_SERVER/play
+}
+
+#pause(){}
+#stop(){}
+#next(){}
+#previous(){}
+#seek(){}
+#setShuffle(){}
+#setRepeat(){}
+#queue(){}
+#setVolume(){}
+#setMute(){}
+#playQueuedTrack(){}
+#moveQueuedSource(){}
+#clearQueue(){}
+#setCurrentPosition(){}
+#removeFromQueue(){}
+#sendState(){}
+#startFrequencyAnalyzer(){}
+#stopFrequencyAnalyzer(){}

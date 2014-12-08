@@ -1,7 +1,6 @@
 require 'grooveshark'
 client = Grooveshark::Client.new
 
-songs = client.search_songs('dancer in the dark')
+songs = client.search_songs('107 steps')
 url = client.get_song_url(songs.first)
-puts url
-system("curl -q #{url}")
+system("curl -q \"#{url}\"")

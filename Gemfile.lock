@@ -2,15 +2,9 @@ GEM
   remote: https://rubygems.org/
   specs:
     dotenv (1.0.2)
-    json (1.8.1)
-    oauth (0.4.7)
-    rdio (0.1.001)
-      json
-      oauth (>= 0.3.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   dotenv
-  rdio
