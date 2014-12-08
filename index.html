@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Rdio Playback API REALLY simple example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+    <script>
+      var playback_token = "GAlNi78J_____zlyYWs5ZG02N2pkaHlhcWsyOWJtYjkyN2xvY2FsaG9zdEbwl7EHvbylWSWFWYMZwfc=";
+      var domain = "localhost";
+    </script>
+  </head>
+  <body>
+    <div id="apiswf"></div>
+    <script>
+      // a global variable that will hold a reference to the api swf once it has loaded
+      var apiswf = null;
+
+      // on page load use SWFObject to load the API swf into div#apiswf
+      var flashvars = {
+        'playbackToken': playback_token, // from token.js
+        'domain': domain,                // from token.js
+        'listener': 'callback_object'    // the global name of the object that will receive callbacks from the SWF
+        };
+      var params = {
+        'allowScriptAccess': 'always'
+      };
+      var attributes = {};
+      swfobject.embedSWF('http://www.rdio.com/api/swf/', // the location of the Rdio Playback API SWF
+          'apiswf', // the ID of the element that will be replaced with the SWF
+          1, 1, '9.0.0', 'expressInstall.swf', flashvars, params, attributes);
+
+      // the global callback object
+      var callback_object = {};
+
+      callback_object.ready = function ready(user) {
+        apiswf = document.getElementById('apiswf');
+      }
+    </script>
+  </body>
+</html>
