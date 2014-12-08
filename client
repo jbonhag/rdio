@@ -6,21 +6,27 @@ play(){
   curl --data "key=$1" $RDIO_SERVER/play
 }
 
-#pause(){}
-#stop(){}
-#next(){}
-#previous(){}
-#seek(){}
-#setShuffle(){}
-#setRepeat(){}
-#queue(){}
-#setVolume(){}
-#setMute(){}
-#playQueuedTrack(){}
-#moveQueuedSource(){}
-#clearQueue(){}
-#setCurrentPosition(){}
-#removeFromQueue(){}
-#sendState(){}
-#startFrequencyAnalyzer(){}
-#stopFrequencyAnalyzer(){}
+pause(){
+  curl $RDIO_SERVER/pause
+}
+
+stop(){
+  curl $RDIO_SERVER/stop
+}
+
+#next(){ curl $RDIO_SERVER/next }
+#previous(){ curl $RDIO_SERVER/previous }
+#seek(){ curl $RDIO_SERVER/seek }
+#setShuffle(){ curl $RDIO_SERVER/setShuffle }
+#setRepeat(){ curl $RDIO_SERVER/setRepeat }
+#queue(){ curl $RDIO_SERVER/queue }
+#setVolume(){ curl $RDIO_SERVER/setVolume }
+#setMute(){ curl $RDIO_SERVER/setMute }
+#playQueuedTrack(){ curl $RDIO_SERVER/playQueuedTrack }
+#moveQueuedSource(){ curl $RDIO_SERVER/moveQueuedSource }
+#clearQueue(){ curl $RDIO_SERVER/clearQueue }
+#setCurrentPosition(){ curl $RDIO_SERVER/setCurrentPosition }
+#removeFromQueue(){ curl $RDIO_SERVER/removeFromQueue }
+#sendState(){ curl $RDIO_SERVER/sendState }
+#startFrequencyAnalyzer(){ curl $RDIO_SERVER/startFrequencyAnalyzer }
+#stopFrequencyAnalyzer(){ curl $RDIO_SERVER/stopFrequencyAnalyzer }
