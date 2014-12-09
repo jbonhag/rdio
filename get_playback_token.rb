@@ -22,10 +22,5 @@ if rdio.token == [nil, nil]
   end
 end
 
-query = ARGV[0]
-tracks = rdio.call('search', {"query" => query,
-                              "types" => "Track",
-                              "limit" => 9})['result']['results']
-tracks.each_with_index do |track, i|
-  puts "#{1+i} #{track['key']} #{track['artist']} - #{track['name']}"
-end
+puts rdio.call('getPlaybackToken')['result']
+

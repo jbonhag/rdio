@@ -12,6 +12,10 @@ var pause = function() {
   apiswf.rdio_pause();
 };
 
+var stop = function() {
+  apiswf.rdio_stop();
+};
+
 var get = function(request, response) {
   if (request.url === '/') {
     var responseText = fs.read('index.html');
@@ -49,6 +53,7 @@ var get = function(request, response) {
     response.statusCode = 200;
     response.write('OK');
     response.close();
+    slimer.exit();
   }
 }
 
