@@ -19,7 +19,7 @@ search(){
 }
 
 getPlaybackToken(){
-
+  ruby get_playback_token.rb
 }
 
 #next(){ curl $RDIO_SERVER/next }
