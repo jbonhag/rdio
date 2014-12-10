@@ -4,14 +4,13 @@ var page = require('webpage').create();
 var fs = require('fs');
 
 var init = function(playbackToken) {
-    var playback_token = "GAlNi78J_____zlyYWs5ZG02N2pkaHlhcWsyOWJtYjkyN2xvY2FsaG9zdEbwl7EHvbylWSWFWYMZwfc=";
     var domain = "localhost";
     // a global variable that will hold a reference to the api swf once it has loaded
     var apiswf = null;
 
     // on page load use SWFObject to load the API swf into div#apiswf
     var flashvars = {
-        'playbackToken': playback_token, // from token.js
+        'playbackToken': playbackToken,
         'domain': domain, // from token.js
         'listener': 'callback_object' // the global name of the object that will receive callbacks from the SWF
     };
@@ -105,6 +104,7 @@ server.listen(8083, function(request, response) {
         }
 
         if (request.url === '/init') {
+            console.log('got playback token: ' + request.post.playbackToken);
             page.evaluate(init, request.post.playbackToken);
 
             response.headers = {

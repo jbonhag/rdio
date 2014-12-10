@@ -3,7 +3,8 @@
 RDIO_SERVER=http://localhost:8083
 
 init(){
-  curl -X POST $RDIO_SERVER/init
+  PLAYBACK_TOKEN="GAlNi78J_____zlyYWs5ZG02N2pkaHlhcWsyOWJtYjkyN2xvY2FsaG9zdEbwl7EHvbylWSWFWYMZwfc="
+  curl --data-urlencode "playbackToken=$PLAYBACK_TOKEN" $RDIO_SERVER/init
 }
 
 play(){
@@ -20,10 +21,6 @@ stop(){
 
 search(){
   ruby search.rb "$1" | tee results.txt
-}
-
-getPlaybackToken(){
-  ruby get_playback_token.rb
 }
 
 #next(){ curl $RDIO_SERVER/next }
