@@ -7,8 +7,10 @@ init(){
   curl --data-urlencode "playbackToken=$PLAYBACK_TOKEN" $RDIO_SERVER/init
 }
 
+# play the first track result of a search
 play(){
-  curl --data "key=$1" $RDIO_SERVER/play
+  KEY=$(search "$1" | sed -n 1p | cut -d' ' -f2)
+  curl --data "key=$KEY" $RDIO_SERVER/play
 }
 
 pause(){
