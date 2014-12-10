@@ -64,7 +64,7 @@ server.listen(8083, function(request, response) {
 
   if (request.method === 'POST' && request.url === '/play') {
     page.evaluate(play, request.post.key);
-    
+
     response.headers = {
       'Content-Type': 'text/plain',
       'Content-Length': 2
@@ -77,4 +77,3 @@ server.listen(8083, function(request, response) {
 });
 
 page.open('http://localhost:8083');
-
