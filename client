@@ -2,6 +2,10 @@
 
 RDIO_SERVER=http://localhost:8083
 
+init(){
+  curl -X POST $RDIO_SERVER/init
+}
+
 play(){
   curl --data "key=$1" $RDIO_SERVER/play
 }
