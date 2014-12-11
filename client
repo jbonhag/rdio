@@ -9,8 +9,7 @@ init(){
 
 # play the first track result of a search
 play(){
-  KEY=$(search "$1" | sed -n 1p | cut -d' ' -f2)
-  curl --data "key=$KEY" $RDIO_SERVER/play
+  playFirstKey "$1"
 }
 
 playKey(){

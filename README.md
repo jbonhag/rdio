@@ -19,3 +19,8 @@ the Rdio cookie, or extract the cookie, or load the cookie manually...
 
 Anyways, the `-P default` argument specifies which profile to load.
 
+You can also point it to your existing Firefox profile, but this will
+lock the profile so you won't be able to launch Firefox.
+
+    slimerjs.bat -profile %APPDATA%\Mozilla\Firefox\Profiles\5zkt9prg.default server.js
+
