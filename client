@@ -13,6 +13,10 @@ play(){
   curl --data "key=$KEY" $RDIO_SERVER/play
 }
 
+playKey(){
+  curl --data "key=$1" $RDIO_SERVER/play
+}
+
 pause(){
   curl $RDIO_SERVER/pause
 }
@@ -23,6 +27,24 @@ stop(){
 
 search(){
   ruby search.rb "$1" | tee results.txt
+}
+
+consoleSearch() {
+  curl -s "http://rdioconsole.appspot.com/call" -H "Cookie: session=""LIuAqfW/6k177C6G3Ni/vv2GjCA=?secret=UycxYWQwZjcwOWU5MWY4MzU5MWQyMzEyZTE0ZTA4MWQ3NicKcDAKLg==""" -H "Origin: http://rdioconsole.appspot.com" -H "Accept-Encoding: gzip, deflate" -H "Accept-Language: en-US,en;q=0.8" -H "User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: */*" -H "Referer: http://rdioconsole.appspot.com/" -H "X-Requested-With: XMLHttpRequest" -H "Connection: keep-alive" -H "DNT: 1" --data "types=&method=search&__rdio_console_secret=1ad0f709e91f83591d2312e14e081d76" --compressed --data-urlencode "query=$1"
+}
+
+keys() {
+  consoleSearch "$1" | jq ".result.results | map(.key)"
+}
+
+firstKey() {
+  keys "$1" | jq ".[0]" | sed 's/"//g'
+}
+
+playFirstKey() {
+  KEY=$(firstKey "$1")
+  echo $KEY
+  playKey $KEY
 }
 
 #next(){ curl $RDIO_SERVER/next }
