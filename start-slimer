@@ -1,0 +1,1 @@
+slimerjs -profile $HOME/.mozilla/firefox/q215qcav.default server.js
