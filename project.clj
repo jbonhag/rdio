@@ -6,5 +6,5 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [ring/ring-core "1.3.2"]
                  [ring/ring-jetty-adapter "1.3.2"]]
-  :dev-dependencies
-                [[ring/ring-devel "1.3.2"]])
+  :profiles {:dev
+              {:dependencies [[ring/ring-devel "1.3.2"]]}})

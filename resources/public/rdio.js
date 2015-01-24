@@ -17,11 +17,10 @@ $(document).ready(function() {
   'apiswf', // the ID of the element that will be replaced with the SWF
   1, 1, '9.0.0', 'expressInstall.swf', flashvars, params, attributes);
 
-  $('[name="key"]').keyup(function(e) {
-    if (e.keyCode == 13) {
-      var key = $('[name="key"]').val();
-      apiswf.rdio_play(key);
-    }
+  $("form#search").submit(function(e) {
+    e.preventDefault();
+    $.post("search", $('form#search').serialize(),
+      function (key) { apiswf.rdio_play(key); });
   });
 });
 

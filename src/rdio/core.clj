@@ -1,14 +1,19 @@
 (ns rdio.core
-  (:require [ring.adapter.jetty :refer [run-jetty]])
-  (:require [ring.middleware.resource :refer [wrap-resource]]))
+  (:use ring.adapter.jetty
+        ring.middleware.params
+        ring.middleware.reload
+        ring.middleware.resource))
 
-(defn handler [request]
-  {:status 404 
+(defn play [{params :form-params}]
+  {:status 200
    :headers {"Content-Type" "text/plain"}
-   :body "404 Not Found"})
+   :body (params "query")})
 
 (def app
-  (wrap-resource handler "public"))
+  (-> #'play 
+    (wrap-reload '(rdio.core))
+    (wrap-resource "public")))
 
-(run-jetty app {:port 3000})
+(defn boot []
+  (run-jetty (wrap-params #'app) {:port 3000}))
 
