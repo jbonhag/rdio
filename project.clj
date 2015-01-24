@@ -5,6 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [ring/ring-core "1.3.2"]
-                 [ring/ring-jetty-adapter "1.3.2"]]
-  :profiles {:dev
-              {:dependencies [[ring/ring-devel "1.3.2"]]}})
+                 [ring/ring-devel "1.3.2"]
+                 [ring/ring-jetty-adapter "1.3.2"]
+                 [clj-oauth "1.5.1"]
+                 [environ "1.0.0"]])
