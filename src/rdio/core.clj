@@ -1,14 +1,16 @@
 (ns rdio.core
-  (:require
+  (:require [rdio.api :as api]
             [ring.adapter.jetty :refer :all]
             [ring.middleware.params :refer :all]
             [ring.middleware.reload :refer :all]
             [ring.middleware.resource :refer :all]))
 
 (defn play [{params :form-params}]
+  (def query (params "query"))
+
   {:status 200
    :headers {"Content-Type" "text/plain"}
-   :body (params "query")})
+   :body (api/search query)})
 
 (def app
   (-> #'play 
