@@ -32,7 +32,9 @@
                                       "http://api.rdio.com/1/"
                                       form-params))
 
-  (http/post "http://api.rdio.com/1/"
-             {:form-params (merge credentials form-params)}))
+  (def response (http/post "http://api.rdio.com/1/"
+             {:form-params (merge credentials form-params)
+              :as :json}))
 
-(search "blake mills")
+  (:key (first (:results (:result (:body response))))))
+
