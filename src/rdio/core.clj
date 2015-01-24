@@ -1,8 +1,9 @@
 (ns rdio.core
-  (:use ring.adapter.jetty
-        ring.middleware.params
-        ring.middleware.reload
-        ring.middleware.resource))
+  (:require
+            [ring.adapter.jetty :refer :all]
+            [ring.middleware.params :refer :all]
+            [ring.middleware.reload :refer :all]
+            [ring.middleware.resource :refer :all]))
 
 (defn play [{params :form-params}]
   {:status 200
