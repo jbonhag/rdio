@@ -9,6 +9,7 @@
                  [ring/ring-jetty-adapter "1.3.2"]
                  [clj-oauth "1.5.1"]
                  [environ "1.0.0"]
-                 [compojure "1.3.1"]]
+                 [compojure "1.3.1"]
+                 [ring/ring-json "0.3.1"]]
   :plugins [[lein-ring "0.9.1"]]
   :ring {:handler rdio.core/app})

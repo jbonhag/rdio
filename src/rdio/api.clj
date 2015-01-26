@@ -22,9 +22,8 @@
                                    "https://www.rdio.com/account/oauth1/authorize/"
                                    :hmac-sha1))
 
-(defn search [query]
-  (def form-params {:method "search", :query query :types "track"})
-
+(defn call [method p]
+  (def form-params (merge {:method method} p))
   (def credentials (oauth/credentials consumer
                                       rdio-token
                                       rdio-token-secret
@@ -32,9 +31,7 @@
                                       "http://api.rdio.com/1/"
                                       form-params))
 
-  (def response (http/post "http://api.rdio.com/1/"
+  (:body (http/post "http://api.rdio.com/1/"
              {:form-params (merge credentials form-params)
-              :as :json}))
-
-  (:key (first (:results (:result (:body response))))))
+              :as :json})))
 

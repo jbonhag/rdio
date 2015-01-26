@@ -19,12 +19,15 @@ $(document).ready(function() {
 
   $("form#search").submit(function(e) {
     e.preventDefault();
-    $.post("search", $('form#search').serialize(),
-      function (key) { apiswf.rdio_play(key); });
+    $.post("/api/search", $('form#search').serialize(),
+      function(data) {
+        if (data.status == "error") { alert(data.message); return; }
+
+        var firstKey = data.result.results[0].key;
+        apiswf.rdio_play(firstKey);
+      });
   });
 });
-
-
 
 var callback_object = {};
 
