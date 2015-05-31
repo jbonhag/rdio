@@ -1,31 +1,277 @@
 "id","rdio_key","name","echo_nest_id"
+1,"r32850","Roc Marciano","ARGCOVG1269FB32D13"
+2,"r304723","Drive-By Truckers","AROMCEV1187B9B3F58"
 3,"r171154","Tortoise","ARUDZ3P1187B9A2E66"
 4,"r45038","Descendents","ARANOZN1187B9B373E"
+5,"r57665","Action Bronson","ARITVFG1269FB34AF1"
 6,"r62","Various Artists","ARAGWS81187FB3F768"
 7,"r6988","Berlin","ARYBGMF1187FB4D82C"
+8,"r4399355","Hannah Diamond","ARSLONS149E56B9358"
 9,"r3050432","Sylvan Esso","ARKQYBB13F86D75342"
 10,"r85592","Built To Spill","ARIHJ7L1187FB3AA86"
 11,"r1326531","Self Defense Family","ARREEML13294027BFF"
+12,"r3717263","Perfect Pussy","ARMKIJV14385F9E78C"
 13,"r700108","St. Vincent","AR0JBXL1187FB52810"
 14,"r88706","Apollonia","AR1DZ4U1187FB589DF"
+15,"r216699","Massive Attack","ARNF13I1187FB562A5"
 16,"r4795","Aretha Franklin","AR7BGWD1187FB59CCB"
 17,"r261375","Jennifer Lopez","AR7C6G11187B9B4C1E"
 18,"r138607","Portishead","ARJVTD81187FB51621"
+19,"r257487","Follies","ARMWNGP1269FCD8ED4"
 20,"r5527","Roy Orbison","ARFSZXM1187FB5A941"
 21,"r19453","Cannibal Ox","AR78L6W1187FB416F8"
-290,"r85612","Björk","ARAOQ5T1187FB435AB"
-302,"r11057","Chris Bathgate","AR6CEPX1187FB3AB1D"
-354,"r85662","Ariel Pink's Haunted Graffiti","ARII7MH1187FB4F993"
-367,"r112318","Matt Redman","AR5BBK81187B990027"
-380,"r275848","Devin Townsend Project","ARIXXLC122BCFC957B"
-395,"r5952","Donna Summer","ARVU2XO1187B9893DB"
-407,"r88414","Flight Of The Conchords","AR1FQLN1187FB3996C"
-421,"r82002","Destroyer","ARD4OBE1187B98C304"
-434,"r240952","Sammie","AR9BQRE1187B9953E2"
-446,"r70835","Count Bass D","ARRRFA71187B98F09B"
-460,"r341953","News","ARULA731187FB40238"
-474,"r296069","John Bond","ARXKYEN1241B9CD47E"
-487,"r69643","Leonard Cohen","ARTQ8QP1187FB3D220"
+22,"r1067948","Big Lazy",
+23,"r3978347","Michael Bellar & the AS-IS Ensemble",
+24,"r2459","The Delfonics",
+25,"r88383","Betty Wright",
+26,"r125320","Quasimoto",
+27,"r34647","Crooked Fingers",
+28,"r36","El-P",
+29,"r1170544","Hozier",
+30,"r60779","Busdriver",
+31,"r248642","Elvis Costello & The Attractions",
+32,"r120496","Gravenhurst",
+33,"r9006","Charles Mingus",
+34,"r91318","Radiohead",
+35,"r30642","Art Garfunkel",
+36,"r57643","Alicia Keys",
+37,"r61038","Teitur",
+38,"r429898","Boom Bip",
+39,"r432183","Great Northern",
+40,"r87726","Popol Vuh",
+41,"r234733","Eddie Izzard",
+42,"r71043","Gang Starr",
+43,"r215443","Bachman-Turner Overdrive",
+44,"r111700","The Roots",
+45,"r85978","Regina Spektor",
+46,"r143220","The Avalanches",
+47,"r184641","Emiliana Torrini",
+48,"r336305","The Cult",
+49,"r155433","Editors",
+50,"r261258","The Devin Townsend Band",
+51,"r275282","Five Finger Death Punch",
+52,"r367575","Steel Magnolia",
+53,"r420373","Julia Stone",
+54,"r7709","Curtis Mayfield",
+55,"r238527","Aphex Twin",
+56,"r171461","Simian Mobile Disco",
+57,"r4638924","Sissy Spacek",
+58,"r48412","Kraftwerk",
+59,"r61463","Karl Blau",
+60,"r347542","Teeth Of Lions Rule The Divine",
+61,"r515928","Celso Sim & Arthur Nestrovski",
+62,"r562323","Young the Giant",
+63,"r164733","Scorpions",
+64,"r84970","Buckcherry",
+65,"r26147","Pungent Stench",
+66,"r139534","Nine Inch Nails",
+67,"r248833","School Of Fish",
+68,"r3024","Us3",
+69,"r295776","She Wants Revenge",
+70,"r259016","Eminem",
+71,"r97289","Mike Watt",
+72,"r85620","Buffalo Springfield",
+73,"r134796","Alcatraz",
+74,"r1992","Young Jeezy",
+75,"r93801","Rihanna",
+76,"r213473","Iron Maiden",
+77,"r114492","Alpha",
+78,"r45673","Beyoncé",
+79,"r142762","Toni Braxton",
+80,"r243003","Scary Kids Scaring Kids",
+81,"r8816","The Wanted",
+82,"r172","The Jon Spencer Blues Explosion",
+83,"r26127","Ghostface Killah",
+84,"r11513","Beirut",
+85,"r23613","The Animals",
+86,"r11714","Smoma",
+87,"r4306","Theatre Of Tragedy",
+88,"r1520400","Andromeda Mega Express Orchestra",
+89,"r87150","Jamie Cullum",
+90,"r890011","The Stepkids",
+91,"r1075919","Caged Animals",
+92,"r800097","Cults",
+93,"r236510","Tom Petty and the Heartbreakers",
+94,"r379832","The xx",
+95,"r282468","The Lemonheads",
+96,"r237224","Aston",
+97,"r146858","Street Military",
+98,"r76919","Sting",
+99,"r352355","ANOREXIA NERVOSA",
+100,"r369717","Säkert!",
+101,"r194796","Don Robertson",
+102,"r14938","The Champs",
+103,"r401044","Unwound",
+104,"r88974","Parts & Labor",
+105,"r285319","The Avett Brothers",
+106,"r180221","CocoRosie",
+107,"r9617","My Dying Bride",
+108,"r72340","Blackalicious",
+109,"r140644","Duran Duran",
+110,"r24260","Kool G Rap",
+111,"r236456","Duncan James",
+112,"r6849","The Grass Roots",
+113,"r86283","Assemblage 23",
+114,"r20424","Mos Def",
+115,"r1485367","Stakka Bo",
+116,"r2064645","Faded Paper Figures",
+117,"r327090","Savage Garden",
+118,"r6707","The Moody Blues",
+119,"r240218","Dar Williams",
+120,"r36396","Tangerine Dream",
+121,"r88499","Wax Poetic",
+122,"r49021","They Might Be Giants",
+123,"r28834","MF DOOM",
+124,"r88292","The Kills",
+125,"r19087","Hurricane Chris",
+126,"r33517","Lil Wayne",
+127,"r112035","Griffin House",
+128,"r94624","John Hiatt",
+129,"r184582","Sparks",
+130,"r302993","The New York Dolls",
+131,"r289044","Disfunction-Ill",
+132,"r2246115","Public Image Ltd.",
+133,"r86735","Sage Francis",
+134,"r108036","Angélique Kidjo",
+135,"r214703","Paul Stanley",
+136,"r295821","Bobby Brown",
+137,"r259954","Liberty x",
+138,"r41440","Ludacris",
+139,"r170799","The Fiery Furnaces",
+140,"r433076","The Wailin' Jennys",
+141,"r177501","Desultory",
+142,"r86122","Black Dice",
+143,"r85549","Renaissance",
+144,"r31534","Nightmares on Wax",
+145,"r101755","Ben Harper","AR0962A1187B9B43E9"
+146,"r72296","Slum Village",
+147,"r155429","Thom Yorke",
+148,"r139884","UB40",
+149,"r66944","Dr. Octagon",
+150,"r162386","The Allman Brothers Band",
+151,"r34888","No Use For A Name",
+152,"r168294","TV On The Radio",
+153,"r321238","City High",
+154,"r261510","Ellie Goulding",
+155,"r85493","Natalie Cole",
+156,"r87422","Animal Collective",
+157,"r236461","The Chariot",
+158,"r111945","Mat Kearney",
+159,"r834729","Current 93",
+160,"r37716","Big L",
+161,"r282415","Ida Maria",
+162,"r15414","Carole King",
+163,"r320889","The Airborne Toxic Event",
+164,"r15462","Mates of State",
+165,"r3239","Kevin Ayers",
+166,"r37970","Chris Brown",
+167,"r7429","The Marshall Tucker Band",
+168,"r710","Tom Jones",
+169,"r942","Waylon Jennings",
+170,"r396950","The UMC's",
+171,"r26688","Gucci Mane",
+172,"r192978","Civil Twilight",
+173,"r35214","Don McLean",
+174,"r47727","Thunder",
+175,"r215366","Steve Miller Band",
+176,"r38396","Saigon",
+177,"r11845","Teddy Pendergrass",
+178,"r63860","Lisa Shaw",
+179,"r25426","Musiq Soulchild",
+180,"r479837","Pharrell Williams",
+181,"r85922","My Chemical Romance",
+182,"r480228","Me First And The Gimme Gimmes",
+183,"r160528","Moonface",
+184,"r6114","Mr. Lif",
+185,"r48259","Common",
+186,"r11706","A Silent Film",
+187,"r32000","Sean Paul",
+188,"r85987","Black Sabbath",
+189,"r85681","NEEDTOBREATHE",
+190,"r16648","Canibus",
+191,"r21141","Brazilian Tropical Orchestra",
+192,"r115530","Jimi Hendrix",
+193,"r89035","Ponytail",
+194,"r499152","Radion 6",
+195,"r2511","Neutral Milk Hotel",
+196,"r119016","Slam",
+197,"r18609","Timmy Thomas",
+198,"r92366","Clap Your Hands Say Yeah",
+199,"r271237","Sugarland",
+200,"r89875","Danny Elfman",
+201,"r51839","Shpongle",
+202,"r55542","Brother Bones & His Shadows",
+203,"r86908","The National",
+204,"r326778","Glee Cast",
+205,"r38404","Esham",
+206,"r90070","A Static Lullaby",
+207,"r2121058","Aquarium Rescue Unit",
+208,"r88020","Basement Jaxx",
+209,"r60482","Mike Patton",
+210,"r812446","Sophie Hunger",
+211,"r24850","T.I.",
+212,"r260409","TLC",
+213,"r114455","Lorn",
+214,"r2791","Wizard",
+215,"r120441","Mercury Rev",
+216,"r34850","Prince",
+217,"r520954","Alice Gomez",
+218,"r63363","Dianne Reeves",
+219,"r341916","Kingston Wall",
+220,"r138736","Turin Brakes",
+221,"r290567","764-Hero",
+222,"r154917","Brad Paisley",
+223,"r1129882","Gonjasufi",
+224,"r183003","Haste The Day",
+225,"r94649","Uriah Heep",
+226,"r176879","The Cheetah Girls",
+227,"r433860","Lightning Bolt",
+228,"r240217","The Dynospectrum",
+229,"r283623","Spin Doctors",
+230,"r64430","Keane",
+231,"r311065","Ratatat",
+232,"r1469835","The Silent Comedy",
+233,"r120906","Tokyo Police Club",
+234,"r90136","Inna",
+235,"r170684","Prefuse 73",
+236,"r90079","Bedouin Soundclash",
+237,"r713616","Chelan",
+238,"r224641","Nouvelle Vague",
+239,"r38833","UFO",
+240,"r89082","Flogging Molly",
+241,"r140439","Crystal Castles",
+242,"r85565","Led Zeppelin",
+243,"r411923","BONNIE PINK",
+244,"r310534","Ismaël Lo",
+245,"r223390","BAP",
+246,"r87202","Within Temptation",
+247,"r88661","Adina Howard",
+248,"r243426","Little Dragon",
+249,"r25376","Shiny Toy Guns",
+250,"r814420","The Knife in collaboration with Mt. Sims and Planningtorock",
+251,"r79557","Cassidy",
+252,"r188276","Caesars",
+253,"r126739","Moloko",
+254,"r23944","Razed In Black",
+255,"r439542","Mucho Macho",
+256,"r5548","Utopia",
+257,"r84958","Van Halen",
+258,"r804470","Spacek",
+259,"r38133","Amanda Palmer",
+260,"r700678","SumKid Majere",
+261,"r63557","Jens Lekman",
+262,"r138991","David Ford",
+263,"r26795","David Cross",
+264,"r191105","Barry Manilow",
+265,"r91280","Spoon",
+266,"r13861","Chris de Burgh",
+267,"r430262","Baths",
+268,"r18016","Sun Ra",
+269,"r84914","The Cars",
+270,"r89765","Nirvana",
+271,"r80158","Big Tone",
+272,"r26195","Raekwon",
+273,"r14147","J-Live",
 274,"r179631","Madvillain","AR0Q6XH1187FB3CDE3"
 275,"r12910","Charles Aznavour","ARWJAMZ1187B9B32CA"
 276,"r139104","Alice In Chains","ARSW5F51187FB4CFC9"
@@ -42,19 +288,26 @@
 287,"r186940","La Roux","ARD6VHG11C8A414FC6"
 288,"r28835","Viktor Vaughn","ARGWSIE1187B9B155E"
 289,"r174945","Michael Learns To Rock","ARZU6MI1187FB58636"
-145,"r101755","Ben Harper","AR0962A1187B9B43E9"
+290,"r85612","Björk","ARAOQ5T1187FB435AB"
+291,"r86847","Brian McKnight","ARI10GS1187B99B2BD"
+292,"r17439","Dave Brubeck","AR1QF001187B9B2B9F"
 293,"r37770","Charlie Hunter","ARHMYE81187FB52267"
+294,"r1446482","Fatima Al Qadiri","ARIDZDZ133B3F137DD"
+295,"r143482","Rappin' 4-Tay","ARTFKUQ11F4C843012"
+296,"r143512","Cee-Lo","ARR8A0N1187B9A255D"
+297,"r4836","Wednesday 13","ARUZLXZ1187FB3BFF1"
+298,"r92629","Sleater-Kinney","ARWKFPM1187FB4E712"
+299,"r203806","Shawn McDonald","ARDQK7V1187B9A24F3"
+300,"r243114","The Mighty Mighty Bosstones","AR2SMD91187B9B0582"
+301,"r139866","311","ARDRXUM1187FB4D131"
+302,"r11057","Chris Bathgate","AR6CEPX1187FB3AB1D"
+303,"r326012","Ryan Adams & The Cardinals","ARGHBVV1187FB4D57A"
+304,"r42645","Shabazz Palaces","ARHYOMK1241B9CC92D"
 305,"r140592","The Black Keys","ARS8GNX1187B9B5141"
-357,"r37530","September","ARNEHRO1187FB4B0C6"
-370,"r276","Frank Sinatra","ARTASUV1187B9A2B67"
-384,"r552485","Burnt Friedman","AR4JOZW1187FB454A3"
-398,"r290639","Soft Machine","ARH74AC1187FB53963"
-412,"r85525","New Boyz","AROJHBE123E29C2453"
-424,"r293984","Tony! Toni! Toné!","ARNKGA11187FB4C938"
-437,"r2318","Johnny Cash","ARH861H1187B9B799E"
-450,"r175644","Grandaddy","ARMJ6T21187FB3950E"
-463,"r85632","Morphine","ARVHCWL1187B9B8F60"
-477,"r87769","Bury Your Dead","ARG9E8O1187B99AB4F"
+306,"r352450","Reggie And The Full Effect","ARJF0OK1187FB51ECE"
+307,"r398048","310","AR6ZCM11187B9B7084"
+308,"r139012","Hoobastank","ARDAHWH1187FB4B0E7"
+309,"r365083","Pavement","ARVFF0Y1187B9AC3CA"
 310,"r50751","Pharoahe Monch","ARXOSRG1187FB4AE0D"
 311,"r125412","Deerhoof","ARC51DL1187B9A9FED"
 312,"r89449","Band Of Skulls","ARONQXK122BCFC9386"
@@ -68,7 +321,6 @@
 320,"r2064815","4th25","ARVUWOK1187B98F5FB"
 321,"r139006","The All-American Rejects","ARR1R5V1187FB4D234"
 322,"r8788","Freddie Hubbard","ARU1K2U1187FB48529"
-291,"r86847","Brian McKnight","ARI10GS1187B99B2BD"
 323,"r2586964","The Star Sisters","AR0NP6A1187B9A7620"
 324,"r88641","Bright Eyes","ARH0TST1187FB3F8F1"
 325,"r211905","Jimmy Needham","ARUKSNL1187FB4C5ED"
@@ -100,142 +352,222 @@
 351,"r154903","Aaliyah","ARDNYW01187FB4D0FB"
 352,"r34108","Electric Wizard","ARV5B2D1187FB36ED1"
 353,"r8750","Live","ARE2DJ41187B99083E"
+354,"r85662","Ariel Pink's Haunted Graffiti","ARII7MH1187FB4F993"
 355,"r1466661","Eligh & Amp Live","ARZMFLY133C82C884A"
 356,"r86710","Vic Chesnutt","AR603HK1187FB3F855"
+357,"r37530","September","ARNEHRO1187FB4B0C6"
 358,"r213539","Devin Townsend","ARUMLBQ1187FB3EB70"
 359,"r26038","Bunny Wailer","ARTIHCD1187FB4FC8D"
+360,"r15183","Royce Da 5'9""","AR2EDEM1187FB573B1"
 361,"r177502","God Dethroned","AR85J8W1187B9AF104"
 362,"r296398","Eli Young Band","ARNRA801187FB5587A"
 363,"r865014","Tommy Rogers","ARVSEXG1269FCCFF9D"
+364,"r1145495","User","AR20JH81187B996528"
 365,"r545174","Fat Jon","ARYRTTG1187B98D91F"
 366,"r15770","Van Morrison","ARNAQSX1187B9ADBE4"
+367,"r112318","Matt Redman","AR5BBK81187B990027"
 368,"r310416","Charlie Robison","AR5278F1187B9A25C8"
 369,"r138625","Foo Fighters","AR6XPWV1187B9ADAEB"
+370,"r276","Frank Sinatra","ARTASUV1187B9A2B67"
 371,"r87737","Every Avenue","AR2M5X21187FB5AFCA"
 372,"r174119","Swing Out Sister","ARTN3WC1187FB521BA"
+373,"r8009","Crazy Frog","ARIYE2G1187B9AE170"
 374,"r209174","Necro","ARN653G1187B997B1F"
 375,"r85695","Tori Amos","AR4KS8C1187FB4CF3D"
+376,"r888648","Captain Hollywood Project","AR19JS91187B98CB66"
 377,"r92729","The Decemberists","ARHWR8B1187FB557D3"
 378,"r350973","Selah Sue","ARLUYHU12086C112ED"
 379,"r579774","Angus & Julia Stone","ARTUHE91187FB421DA"
+380,"r275848","Devin Townsend Project","ARIXXLC122BCFC957B"
 381,"r577257","Warhead","ARITJAO1187B9A14DE"
 382,"r2319","Ray Charles","AR20CFC1187B98A25D"
 383,"r86450","Disturbed","ARLNLD51187B98DEC5"
+384,"r552485","Burnt Friedman","AR4JOZW1187FB454A3"
 385,"r87841","Zero 7","ARWMPYS1187B9B4510"
 386,"r331740","The KLF","ARAKRUA1187B9B0634"
+387,"r547202","The Dismemberment Plan","AR8FAQM1187B9B98C0"
 388,"r920225","Cheval De Frise","ARVZGEJ1187FB446BA"
 389,"r1776266","Darren Criss","ARSKQRP12AA0D8EAE6"
 390,"r10297","Can","AR94EZ61187B990729"
 391,"r106431","Adrianne","ARBMDD91187FB43ED9"
+392,"r240855","Danko Jones","ARK9A3Y1187FB4C02B"
 393,"r393719","Bob Marley & The Wailers","ARAZCWP129462A97F1"
 394,"r88093","Jolie Holland","ARKG27B1187B99944A"
+395,"r5952","Donna Summer","ARVU2XO1187B9893DB"
 396,"r4457","Miles Davis","AR7RTGF1187FB38793"
 397,"r85092","Arctic Monkeys","ARM0P6Z1187FB4D466"
+398,"r290639","Soft Machine","ARH74AC1187FB53963"
 399,"r1202317","Casey Dienel","AR0HF7P1187FB3A7B1"
 400,"r619646","Kendrick Lamar","AREJQVO12C1DF51FFE"
+401,"r1429573","Sunhouse","ARUGKCS1187B98B8DD"
 402,"r187221","Wise Guys","ARF3W9S1187B9AE96F"
 403,"r81220","Patty Griffin","AR6I54S1187FB48C6B"
+404,"r168289","The Ready Set","ARJOO2211A348F04DA"
 405,"r84954","Enya","AREACYD1187FB566DE"
 406,"r88993","Sepultura","ARHLT3W1187FB5711F"
+407,"r88414","Flight Of The Conchords","AR1FQLN1187FB3996C"
 408,"r402043","Aesthetic Perfection","ARRTT611187B99D82B"
 409,"r89243","Tiny Tim","ARPBNLO1187FB3D52F"
 410,"r121905","The Clash","AR13CXU1187B9AD30A"
 411,"r23452","Erick Sermon","AROLNOH1187FB39845"
+412,"r85525","New Boyz","AROJHBE123E29C2453"
 413,"r761264","Tame Impala","ARGWWVA11E2835DEF5"
 414,"r32879","Oh No","ARXHFWE1187FB410A9"
+415,"r374417","Stalley","ARNWNCD1274363C479"
 416,"r271514","Mumford & Sons","ARJERLY11E2835D7DC"
 417,"r215270","Golden Earring","AR7B7S81187FB37F20"
+418,"r243200","Ricky Martin","AR2FSX31187B98E3EF"
 419,"r27280","Lisa Loeb","ARNJ4771187FB58301"
 420,"r138882","Iron & Wine","AR4XX0N1187FB45C21"
+421,"r82002","Destroyer","ARD4OBE1187B98C304"
 422,"r4424","Saul Williams","ARIRBKB1187FB56CD0"
 423,"r142702","Vince Guaraldi Trio","AROSPS51187B9B481F"
+424,"r293984","Tony! Toni! Toné!","ARNKGA11187FB4C938"
 425,"r541577","A Death In The Family","ARQRL941187FB4CC2D"
 426,"r1010997","Forever young","AR1VANR1187B9B9ADF"
+427,"r89130","Sam Phillips","ARSXDKG1187FB41505"
 428,"r50412","7 Seconds","ARQ0B8P1187FB4D58B"
 429,"r85806","of Montreal","ARYMCJZ1187FB513DA"
+430,"r3563","Ella Fitzgerald","ARIJE1A1187B9A458D"
 431,"r8239","Elton John","ARTB3OO1187FB49BDA"
 432,"r302867","The Psychedelic Furs","ARIMH3L1187B9B9178"
 433,"r32967","Green Day","ARV3CRH1187B9A1B21"
-490,"r88047","Mitch Hedberg",
-491,"r470772","Fun People",
-492,"r10963","Merle Haggard",
-493,"r188975","Drake",
-494,"r184084","Adam Lambert",
-495,"r1666230","Psyche Origami",
-496,"r87121","Fall Out Boy",
-497,"r834002","Bikini Kill",
-498,"r138628","Smash Mouth",
-499,"r91152","Med",
-500,"r139687","Nelly Furtado",
-501,"r247030","MGMT",
-502,"r86362","Streetlight Manifesto",
-503,"r213354","Air",
-504,"r167272","Mr. Bungle",
-505,"r92577","Modest Mouse",
-506,"r39849","Queen",
-507,"r1162640","Konzertchor Cantins, Cerchel Musical Dalla Surselva",
-508,"r354588","Duke Ellington & Coleman Hawkins",
-509,"r189952","Supertramp",
-510,"r19690","DJ Screw",
-511,"r202242","Black Milk",
-512,"r68017","Toby Keith",
-513,"r224868","Les Fatals Picards",
-514,"r23688","Black",
-515,"r88487","Baka Beyond",
-516,"r172116","Steve Hillage",
-517,"r309953","The Nextmen",
-518,"r86051","Joan Osborne",
-519,"r86698","Brandy",
-520,"r140654","Finger Eleven",
-521,"r370674","Straw",
-522,"r1347","John Vanderslice",
-523,"r86902","The Notorious B.I.G.",
-524,"r25366","Lionel Richie",
-525,"r178264","Amp Fiddler",
-526,"r98507","Alkaline Trio",
-527,"r88555","Fruit Bats",
-528,"r365388","Julian Austin",
-529,"r86272","The Shins",
-530,"r47581","DJ Shadow",
-531,"r224747","Reba McEntire",
-532,"r3974941","Wrooclyn Dodgers",
-533,"r86128","Jaheim",
-534,"r197039","Roxette",
-535,"r56002","Aaron Hall",
-536,"r28335","The Toasters",
-537,"r86229","Dire Straits",
-538,"r1009235","Frank Ocean",
-539,"r16728","B.B. King",
-540,"r89718","Fleet Foxes",
-541,"r26145","Ray Stevens",
-542,"r85923","Sonicflood",
-543,"r56700","Neko Case",
-544,"r7553","Glen Campbell",
-545,"r167253","The White Stripes",
-546,"r112418","Pat Benatar",
-547,"r433812","Netsky",
-548,"r85782","The Doors",
-549,"r91283","Outkast",
-550,"r2097","Art Tatum",
-551,"r88740","Califone",
-552,"r52486","Daryll-Ann",
-553,"r294951","Ismael Serrano",
-554,"r84941","Toro Y Moi",
-555,"r260875","Vitamin String Quartet",
-556,"r139464","Gus Gus",
-557,"r273466","MC Solaar",
-558,"r88885","Oakley Hall",
-559,"r421281","Russian Red",
-560,"r294620","Fiona Apple",
-561,"r325189","Eagle-Eye Cherry",
-562,"r139007","The Who",
-563,"r1822841","Deltron 3030",
-564,"r97386","Pereza",
-565,"r214290","The Bird and the Bee",
-566,"r25431","Ne-Yo",
-567,"r178749","Cherry Poppin' Daddies",
-568,"r61427","Warren G",
-569,"r8899","The Cinematics",
+434,"r240952","Sammie","AR9BQRE1187B9953E2"
+435,"r84808","The Flaming Lips","ARNVCB81187B9ACBDF"
+436,"r154990","Will Johnson","ARVS8XD1187B9958E3"
+437,"r2318","Johnny Cash","ARH861H1187B9B799E"
+438,"r348202","Know The Score","ARR4NPA1187B995887"
+439,"r13096","James Taylor","ARSF0K11187B9AF319"
+440,"r430238","WHY?","AR0B3RS1187FB48F5D"
+441,"r86012","Stevie Nicks","ARM96381187B98F770"
+442,"r838647","A Hawk And A Hacksaw","ARLSWXA1187B98E534"
+443,"r330153","Allison Iraheta","ARACFBH11FED0C4413"
+444,"r36160","Tech N9ne","ARGXIE31187FB55B48"
+445,"r172363","Calvin Richardson","ARXF8OC1187B9994C1"
+446,"r70835","Count Bass D","ARRRFA71187B98F09B"
+447,"r1245","Kathryn Williams","ARCB10N1187B9AEB2F"
+448,"r19013","50 Cent","AR23C041187FB4D534"
+449,"r258997","Bobby V","ARXQQZZ125FEF32503"
+450,"r175644","Grandaddy","ARMJ6T21187FB3950E"
+451,"r69552","Stevie Wonder","ARUM60L1187B9A7E1F"
+452,"r321889","Pablo Cruise","AR7341N1187FB5B394"
+453,"r1937","Kris Delmhorst","ARTLPS31187B9A7B95"
+454,"r87275","Escape The Fate","AROSIKT1187B9A4D53"
+455,"r26153","Jim Jones","ART62WC1187FB47E80"
+456,"r57658","Bobby McFerrin","ARSK10P1187B9B717C"
+457,"r8911","Joe Jackson","ARQZZ8L1187B98E2F6"
+458,"r776571","The Frogs","ARGJKFU1187B98E6E2"
+459,"r85784","Deep Purple","ARXPE8V1187B99AEC9"
+460,"r341953","News","ARULA731187FB40238"
+461,"r713535","Bad Meets Evil","AR26WWP1187FB5491C"
+462,"r550199","I Am Arrows","ARNALPD129F1DDFC4A"
+463,"r85632","Morphine","ARVHCWL1187B9B8F60"
+464,"r84913","Cobra Starship","AR1T5VW1187B9B9586"
+465,"r91336","Maroon 5","ARF5M7Q1187FB501E8"
+466,"r1959617","Lee Bains III & The Glory Fires","ARHYLLE13704F0980D"
+467,"r83988","Young MC","ARCC6F01187B9B0C19"
+468,"r31451","Le Tigre","ARZPYZ11187FB4938A"
+469,"r20354","Bill Evans","ARTLL9E1187FB4436F"
+470,"r93706","The Moldy Peaches","ARYY90F1187FB39ED9"
+471,"r347512","Propagandhi","AR1SVJX1187FB3A7D9"
+472,"r175738","ABBA","ART50HO1187FB4D0ED"
+473,"r87324","Aimee Mann","ARR5XTD1187FB3C6BE"
+474,"r296069","John Bond","ARXKYEN1241B9CD47E"
+475,"r3717","Bob Marley","ARAZCWP129462A97F1"
+476,"r566858","Edie Sedgwick","ARUIO421187B9A2666"
+477,"r87769","Bury Your Dead","ARG9E8O1187B99AB4F"
+478,"r138899","Vampire Weekend","AR2ZPMX1187FB4E4B6"
+479,"r1170104","Josh Woodward","AR13MLG1187B9AF9B2"
+480,"r252819","Owl City","AR0WLH6119B8669027"
+481,"r18318","Boris","AR264J61187B98C8BB"
+482,"r93769","Wolfmother","ARDF8K01187FB37200"
+483,"r89940","Foals","ARVXV1J1187FB5BF88"
+484,"r393234","Junk Culture","ARRWFFC12406A89C2E"
+485,"r30690","Phil Collins","AR9W3X91187FB3994C"
+486,"r190508","Daft Punk","ARF8HTQ1187B9AE693"
+487,"r69643","Leonard Cohen","ARTQ8QP1187FB3D220"
+488,"r168074","Ladytron","ARFBTGU1187B9B8395"
+489,"r26194","Masta Killa","ARU4FPZ1187B9B78F9"
+490,"r88047","Mitch Hedberg","ARHSCD11187B9AC120"
+491,"r470772","Fun People","AR037KT1187B98FC1E"
+492,"r10963","Merle Haggard","AR470HW1187FB3B8DF"
+493,"r188975","Drake","ARODZUF11F4C841E1F"
+494,"r184084","Adam Lambert","ARIGTAO11FED0C4411"
+495,"r1666230","Psyche Origami","ARK76KC1187B9A84C9"
+496,"r87121","Fall Out Boy","ARSG7NQ1187FB57482"
+497,"r834002","Bikini Kill","AR3WYZ21187B9B4F3F"
+498,"r138628","Smash Mouth","AR3R47O1187B9A3ED9"
+499,"r91152","Med","AR94AIM1187FB58F41"
+500,"r139687","Nelly Furtado","ARAOYXM1187FB524F6"
+501,"r247030","MGMT","ARI3Y821187FB3649C"
+502,"r86362","Streetlight Manifesto","ARL1MEI1187B9AD98B"
+503,"r213354","Air","ARZZ5ZR1187FB4D149"
+504,"r167272","Mr. Bungle","AR4L3KQ1187FB4EDEA"
+505,"r92577","Modest Mouse","AR6AY7W1187B9AC569"
+506,"r39849","Queen","ARL4TII1187B9B46E1"
+507,"r1162640","Konzertchor Cantins, Cerchel Musical Dalla Surselva","null"
+508,"r354588","Duke Ellington & Coleman Hawkins","AR0OHKM1187B9A887E"
+509,"r189952","Supertramp","ARRZ9UW1187B9AFA1D"
+510,"r19690","DJ Screw","ARCQMJH1187B9B53CC"
+511,"r202242","Black Milk","ARYYEAR1187B993104"
+512,"r68017","Toby Keith","ARHATLI1187FB52C76"
+513,"r224868","Les Fatals Picards","AR9H4RJ1187FB3E081"
+514,"r23688","Black","ARDZ06F1187B9AB9C6"
+515,"r88487","Baka Beyond","ARE93YV1187B9937CC"
+516,"r172116","Steve Hillage","AR0WQ1V1187B9ADE2C"
+517,"r309953","The Nextmen","ARFNOMQ1187FB4B204"
+518,"r86051","Joan Osborne","AREIZH41187B9A108D"
+519,"r86698","Brandy","ARQUO3Z1187B98C912"
+520,"r140654","Finger Eleven","AR6BNBY1187B998232"
+521,"r370674","Straw","null"
+522,"r1347","John Vanderslice","ARP1J2A1187B9B4D3B"
+523,"r86902","The Notorious B.I.G.","ARSZ6MA1187FB43D29"
+524,"r25366","Lionel Richie","ARIK43K1187B9AE54C"
+525,"r178264","Amp Fiddler","AR0709B1187B9A8E99"
+526,"r98507","Alkaline Trio","ARC1SV21187FB4CF26"
+527,"r88555","Fruit Bats","ARRXBCG1187B9AC704"
+528,"r365388","Julian Austin","null"
+529,"r86272","The Shins","AREPV2D1187FB5C1A1"
+530,"r47581","DJ Shadow","ARME7101187FB3ECDD"
+531,"r224747","Reba McEntire","ARPH1W61187B9B4CD8"
+532,"r3974941","Wrooclyn Dodgers","ARWKWOE12F793546E2"
+533,"r86128","Jaheim","ARJM42R1187B9B69AA"
+534,"r197039","Roxette","ARC9Y481187B990259"
+535,"r56002","Aaron Hall","ARD7RQ01187FB56907"
+536,"r28335","The Toasters","ARG733S1187B99AD70"
+537,"r86229","Dire Straits","ARFWLXM1187B9B5EE5"
+538,"r1009235","Frank Ocean","ARSBBFH12E9B917E81"
+539,"r16728","B.B. King","AR4GAFY1187B9B639D"
+540,"r89718","Fleet Foxes","ARO2U2Q119B86692A8"
+541,"r26145","Ray Stevens","AR2GNDZ1187FB3D701"
+542,"r85923","Sonicflood","ARLNYY01187B99FBAD"
+543,"r56700","Neko Case","AR14K4J1187B993B60"
+544,"r7553","Glen Campbell","AR8H87D1187FB3A841"
+545,"r167253","The White Stripes","AR8V1WA1187B9AD9E9"
+546,"r112418","Pat Benatar","ARPMB2A1187FB4D306"
+547,"r433812","Netsky","ARVBSKB1242078271D"
+548,"r85782","The Doors","ARUGU0E1187B9B30F6"
+549,"r91283","Outkast","AR3MSAN1187B98F06B"
+550,"r2097","Art Tatum","ARTJECM1187B9930BA"
+551,"r88740","Califone","AROFLA71187B9B23CE"
+552,"r52486","Daryll-Ann","AR7HNX61187B999CBE"
+553,"r294951","Ismael Serrano","ARAVE0R1187FB39AB2"
+554,"r84941","Toro Y Moi","ARGPAJU12406A8996B"
+555,"r260875","Vitamin String Quartet","ARTOFYC11E2835D5E5"
+556,"r139464","Gus Gus","ARDKBAV1187FB4AF61"
+557,"r273466","MC Solaar","ARRUMDY1187B9ACDFA"
+558,"r88885","Oakley Hall","ARZCYWY1187FB41489"
+559,"r421281","Russian Red","ARACCYH11C8A42BA83"
+560,"r294620","Fiona Apple","AR15IO41187FB4D3FF"
+561,"r325189","Eagle-Eye Cherry","AR00B1I1187FB433EB"
+562,"r139007","The Who","ARWX5TK1187FB4CDBE"
+563,"r1822841","Deltron 3030","ARCRYE31187B98D2E3"
+564,"r97386","Pereza","ARRIYKX1187FB3F672"
+565,"r214290","The Bird and the Bee","AR2JB471187FB470A2"
+566,"r25431","Ne-Yo","ARAWOLW1187FB3AB70"
+567,"r178749","Cherry Poppin' Daddies","ARIAUMB1187FB494B0"
+568,"r61427","Warren G","ARSQSCB1187B9912A0"
+569,"r8899","The Cinematics","AR1NGUM1187FB4DD53"
 570,"r84811","Madonna",
 571,"r5332","Napalm Death",
 572,"r71294","Robyn",
@@ -246,45 +578,6 @@
 577,"r94444","Art Blakey & The Jazz Messengers",
 578,"r94686","Gentle Giant",
 579,"r11325","Jan & Dean",
-435,"r84808","The Flaming Lips","ARNVCB81187B9ACBDF"
-436,"r154990","Will Johnson","ARVS8XD1187B9958E3"
-438,"r348202","Know The Score","ARR4NPA1187B995887"
-439,"r13096","James Taylor","ARSF0K11187B9AF319"
-441,"r86012","Stevie Nicks","ARM96381187B98F770"
-443,"r330153","Allison Iraheta","ARACFBH11FED0C4413"
-444,"r36160","Tech N9ne","ARGXIE31187FB55B48"
-445,"r172363","Calvin Richardson","ARXF8OC1187B9994C1"
-447,"r1245","Kathryn Williams","ARCB10N1187B9AEB2F"
-448,"r19013","50 Cent","AR23C041187FB4D534"
-449,"r258997","Bobby V","ARXQQZZ125FEF32503"
-451,"r69552","Stevie Wonder","ARUM60L1187B9A7E1F"
-452,"r321889","Pablo Cruise","AR7341N1187FB5B394"
-454,"r87275","Escape The Fate","AROSIKT1187B9A4D53"
-455,"r26153","Jim Jones","ART62WC1187FB47E80"
-456,"r57658","Bobby McFerrin","ARSK10P1187B9B717C"
-458,"r776571","The Frogs","ARGJKFU1187B98E6E2"
-459,"r85784","Deep Purple","ARXPE8V1187B99AEC9"
-461,"r713535","Bad Meets Evil","AR26WWP1187FB5491C"
-462,"r550199","I Am Arrows","ARNALPD129F1DDFC4A"
-464,"r84913","Cobra Starship","AR1T5VW1187B9B9586"
-465,"r91336","Maroon 5","ARF5M7Q1187FB501E8"
-467,"r83988","Young MC","ARCC6F01187B9B0C19"
-468,"r31451","Le Tigre","ARZPYZ11187FB4938A"
-469,"r20354","Bill Evans","ARTLL9E1187FB4436F"
-471,"r347512","Propagandhi","AR1SVJX1187FB3A7D9"
-472,"r175738","ABBA","ART50HO1187FB4D0ED"
-473,"r87324","Aimee Mann","ARR5XTD1187FB3C6BE"
-475,"r3717","Bob Marley","ARAZCWP129462A97F1"
-476,"r566858","Edie Sedgwick","ARUIO421187B9A2666"
-478,"r138899","Vampire Weekend","AR2ZPMX1187FB4E4B6"
-479,"r1170104","Josh Woodward","AR13MLG1187B9AF9B2"
-480,"r252819","Owl City","AR0WLH6119B8669027"
-482,"r93769","Wolfmother","ARDF8K01187FB37200"
-483,"r89940","Foals","ARVXV1J1187FB5BF88"
-485,"r30690","Phil Collins","AR9W3X91187FB3994C"
-486,"r190508","Daft Punk","ARF8HTQ1187B9AE693"
-488,"r168074","Ladytron","ARFBTGU1187B9B8395"
-489,"r26194","Masta Killa","ARU4FPZ1187B9B78F9"
 580,"r86942","Old 97's",
 581,"r23798","Living Legends",
 582,"r19015","Young Buck",
@@ -905,302 +1198,9 @@
 1197,"r661409","Asheru and Blue Black of The Unspoken Heard",
 1198,"r906877","New York Jazz Lounge",
 1199,"r168992","Ralph Marterie",
-360,"r15183","Royce Da 5'9""","AR2EDEM1187FB573B1"
-373,"r8009","Crazy Frog","ARIYE2G1187B9AE170"
-387,"r547202","The Dismemberment Plan","AR8FAQM1187B9B98C0"
-401,"r1429573","Sunhouse","ARUGKCS1187B98B8DD"
 1204,"r161626","Sharon Brown",
 1205,"r85957","Third Eye Blind",
 1206,"r530594","The Soft Boys",
 1207,"r179714","Jaylib",
 1208,"r170642","Madlib",
 1209,"r88792","Stereolab",
-415,"r374417","Stalley","ARNWNCD1274363C479"
-427,"r89130","Sam Phillips","ARSXDKG1187FB41505"
-440,"r430238","WHY?","AR0B3RS1187FB48F5D"
-453,"r1937","Kris Delmhorst","ARTLPS31187B9A7B95"
-466,"r1959617","Lee Bains III & The Glory Fires","ARHYLLE13704F0980D"
-481,"r18318","Boris","AR264J61187B98C8BB"
-1,"r32850","Roc Marciano","ARGCOVG1269FB32D13"
-2,"r304723","Drive-By Truckers","AROMCEV1187B9B3F58"
-5,"r57665","Action Bronson","ARITVFG1269FB34AF1"
-8,"r4399355","Hannah Diamond","ARSLONS149E56B9358"
-12,"r3717263","Perfect Pussy","ARMKIJV14385F9E78C"
-15,"r216699","Massive Attack","ARNF13I1187FB562A5"
-19,"r257487","Follies","ARMWNGP1269FCD8ED4"
-296,"r143512","Cee-Lo","ARR8A0N1187B9A255D"
-308,"r139012","Hoobastank","ARDAHWH1187FB4B0E7"
-22,"r1067948","Big Lazy",
-24,"r2459","The Delfonics",
-25,"r88383","Betty Wright",
-26,"r125320","Quasimoto",
-27,"r34647","Crooked Fingers",
-28,"r36","El-P",
-29,"r1170544","Hozier",
-30,"r60779","Busdriver",
-32,"r120496","Gravenhurst",
-33,"r9006","Charles Mingus",
-34,"r91318","Radiohead",
-35,"r30642","Art Garfunkel",
-36,"r57643","Alicia Keys",
-37,"r61038","Teitur",
-38,"r429898","Boom Bip",
-39,"r432183","Great Northern",
-40,"r87726","Popol Vuh",
-42,"r71043","Gang Starr",
-43,"r215443","Bachman-Turner Overdrive",
-44,"r111700","The Roots",
-45,"r85978","Regina Spektor",
-46,"r143220","The Avalanches",
-47,"r184641","Emiliana Torrini",
-49,"r155433","Editors",
-50,"r261258","The Devin Townsend Band",
-51,"r275282","Five Finger Death Punch",
-52,"r367575","Steel Magnolia",
-53,"r420373","Julia Stone",
-55,"r238527","Aphex Twin",
-56,"r171461","Simian Mobile Disco",
-57,"r4638924","Sissy Spacek",
-58,"r48412","Kraftwerk",
-59,"r61463","Karl Blau",
-61,"r515928","Celso Sim & Arthur Nestrovski",
-62,"r562323","Young the Giant",
-63,"r164733","Scorpions",
-64,"r84970","Buckcherry",
-65,"r26147","Pungent Stench",
-66,"r139534","Nine Inch Nails",
-67,"r248833","School Of Fish",
-68,"r3024","Us3",
-70,"r259016","Eminem",
-71,"r97289","Mike Watt",
-72,"r85620","Buffalo Springfield",
-73,"r134796","Alcatraz",
-74,"r1992","Young Jeezy",
-75,"r93801","Rihanna",
-77,"r114492","Alpha",
-78,"r45673","Beyoncé",
-79,"r142762","Toni Braxton",
-80,"r243003","Scary Kids Scaring Kids",
-81,"r8816","The Wanted",
-83,"r26127","Ghostface Killah",
-84,"r11513","Beirut",
-85,"r23613","The Animals",
-86,"r11714","Smoma",
-87,"r4306","Theatre Of Tragedy",
-88,"r1520400","Andromeda Mega Express Orchestra",
-89,"r87150","Jamie Cullum",
-90,"r890011","The Stepkids",
-91,"r1075919","Caged Animals",
-92,"r800097","Cults",
-94,"r379832","The xx",
-95,"r282468","The Lemonheads",
-96,"r237224","Aston",
-97,"r146858","Street Military",
-98,"r76919","Sting",
-99,"r352355","ANOREXIA NERVOSA",
-100,"r369717","Säkert!",
-101,"r194796","Don Robertson",
-102,"r14938","The Champs",
-104,"r88974","Parts & Labor",
-105,"r285319","The Avett Brothers",
-106,"r180221","CocoRosie",
-107,"r9617","My Dying Bride",
-108,"r72340","Blackalicious",
-109,"r140644","Duran Duran",
-111,"r236456","Duncan James",
-112,"r6849","The Grass Roots",
-113,"r86283","Assemblage 23",
-114,"r20424","Mos Def",
-115,"r1485367","Stakka Bo",
-116,"r2064645","Faded Paper Figures",
-117,"r327090","Savage Garden",
-118,"r6707","The Moody Blues",
-119,"r240218","Dar Williams",
-120,"r36396","Tangerine Dream",
-122,"r49021","They Might Be Giants",
-123,"r28834","MF DOOM",
-124,"r88292","The Kills",
-125,"r19087","Hurricane Chris",
-126,"r33517","Lil Wayne",
-127,"r112035","Griffin House",
-129,"r184582","Sparks",
-130,"r302993","The New York Dolls",
-131,"r289044","Disfunction-Ill",
-132,"r2246115","Public Image Ltd.",
-133,"r86735","Sage Francis",
-135,"r214703","Paul Stanley",
-136,"r295821","Bobby Brown",
-137,"r259954","Liberty x",
-138,"r41440","Ludacris",
-139,"r170799","The Fiery Furnaces",
-141,"r177501","Desultory",
-142,"r86122","Black Dice",
-143,"r85549","Renaissance",
-147,"r155429","Thom Yorke",
-148,"r139884","UB40",
-149,"r66944","Dr. Octagon",
-151,"r34888","No Use For A Name",
-152,"r168294","TV On The Radio",
-153,"r321238","City High",
-154,"r261510","Ellie Goulding",
-155,"r85493","Natalie Cole",
-156,"r87422","Animal Collective",
-157,"r236461","The Chariot",
-158,"r111945","Mat Kearney",
-160,"r37716","Big L",
-161,"r282415","Ida Maria",
-162,"r15414","Carole King",
-164,"r15462","Mates of State",
-165,"r3239","Kevin Ayers",
-166,"r37970","Chris Brown",
-167,"r7429","The Marshall Tucker Band",
-168,"r710","Tom Jones",
-169,"r942","Waylon Jennings",
-170,"r396950","The UMC's",
-171,"r26688","Gucci Mane",
-172,"r192978","Civil Twilight",
-173,"r35214","Don McLean",
-174,"r47727","Thunder",
-176,"r38396","Saigon",
-177,"r11845","Teddy Pendergrass",
-178,"r63860","Lisa Shaw",
-179,"r25426","Musiq Soulchild",
-180,"r479837","Pharrell Williams",
-182,"r480228","Me First And The Gimme Gimmes",
-183,"r160528","Moonface",
-184,"r6114","Mr. Lif",
-185,"r48259","Common",
-186,"r11706","A Silent Film",
-187,"r32000","Sean Paul",
-188,"r85987","Black Sabbath",
-189,"r85681","NEEDTOBREATHE",
-190,"r16648","Canibus",
-192,"r115530","Jimi Hendrix",
-193,"r89035","Ponytail",
-194,"r499152","Radion 6",
-195,"r2511","Neutral Milk Hotel",
-196,"r119016","Slam",
-197,"r18609","Timmy Thomas",
-199,"r271237","Sugarland",
-200,"r89875","Danny Elfman",
-201,"r51839","Shpongle",
-202,"r55542","Brother Bones & His Shadows",
-203,"r86908","The National",
-204,"r326778","Glee Cast",
-205,"r38404","Esham",
-207,"r2121058","Aquarium Rescue Unit",
-208,"r88020","Basement Jaxx",
-209,"r60482","Mike Patton",
-210,"r812446","Sophie Hunger",
-211,"r24850","T.I.",
-212,"r260409","TLC",
-213,"r114455","Lorn",
-214,"r2791","Wizard",
-215,"r120441","Mercury Rev",
-217,"r520954","Alice Gomez",
-218,"r63363","Dianne Reeves",
-219,"r341916","Kingston Wall",
-220,"r138736","Turin Brakes",
-221,"r290567","764-Hero",
-222,"r154917","Brad Paisley",
-224,"r183003","Haste The Day",
-225,"r94649","Uriah Heep",
-226,"r176879","The Cheetah Girls",
-227,"r433860","Lightning Bolt",
-228,"r240217","The Dynospectrum",
-229,"r283623","Spin Doctors",
-230,"r64430","Keane",
-232,"r1469835","The Silent Comedy",
-233,"r120906","Tokyo Police Club",
-234,"r90136","Inna",
-235,"r170684","Prefuse 73",
-237,"r713616","Chelan",
-238,"r224641","Nouvelle Vague",
-239,"r38833","UFO",
-240,"r89082","Flogging Molly",
-241,"r140439","Crystal Castles",
-242,"r85565","Led Zeppelin",
-243,"r411923","BONNIE PINK",
-245,"r223390","BAP",
-246,"r87202","Within Temptation",
-247,"r88661","Adina Howard",
-248,"r243426","Little Dragon",
-250,"r814420","The Knife in collaboration with Mt. Sims and Planningtorock",
-251,"r79557","Cassidy",
-252,"r188276","Caesars",
-253,"r126739","Moloko",
-254,"r23944","Razed In Black",
-255,"r439542","Mucho Macho",
-256,"r5548","Utopia",
-257,"r84958","Van Halen",
-259,"r38133","Amanda Palmer",
-260,"r700678","SumKid Majere",
-261,"r63557","Jens Lekman",
-262,"r138991","David Ford",
-263,"r26795","David Cross",
-265,"r91280","Spoon",
-266,"r13861","Chris de Burgh",
-267,"r430262","Baths",
-268,"r18016","Sun Ra",
-269,"r84914","The Cars",
-270,"r89765","Nirvana",
-271,"r80158","Big Tone",
-272,"r26195","Raekwon",
-273,"r14147","J-Live",
-23,"r3978347","Michael Bellar & the AS-IS Ensemble",
-31,"r248642","Elvis Costello & The Attractions",
-41,"r234733","Eddie Izzard",
-48,"r336305","The Cult",
-54,"r7709","Curtis Mayfield",
-60,"r347542","Teeth Of Lions Rule The Divine",
-69,"r295776","She Wants Revenge",
-76,"r213473","Iron Maiden",
-82,"r172","The Jon Spencer Blues Explosion",
-93,"r236510","Tom Petty and the Heartbreakers",
-103,"r401044","Unwound",
-110,"r24260","Kool G Rap",
-121,"r88499","Wax Poetic",
-128,"r94624","John Hiatt",
-134,"r108036","Angélique Kidjo",
-140,"r433076","The Wailin' Jennys",
-144,"r31534","Nightmares on Wax",
-146,"r72296","Slum Village",
-150,"r162386","The Allman Brothers Band",
-159,"r834729","Current 93",
-163,"r320889","The Airborne Toxic Event",
-175,"r215366","Steve Miller Band",
-181,"r85922","My Chemical Romance",
-191,"r21141","Brazilian Tropical Orchestra",
-198,"r92366","Clap Your Hands Say Yeah",
-206,"r90070","A Static Lullaby",
-216,"r34850","Prince",
-223,"r1129882","Gonjasufi",
-231,"r311065","Ratatat",
-236,"r90079","Bedouin Soundclash",
-244,"r310534","Ismaël Lo",
-249,"r25376","Shiny Toy Guns",
-258,"r804470","Spacek",
-264,"r191105","Barry Manilow",
-292,"r17439","Dave Brubeck","AR1QF001187B9B2B9F"
-294,"r1446482","Fatima Al Qadiri","ARIDZDZ133B3F137DD"
-295,"r143482","Rappin' 4-Tay","ARTFKUQ11F4C843012"
-297,"r4836","Wednesday 13","ARUZLXZ1187FB3BFF1"
-298,"r92629","Sleater-Kinney","ARWKFPM1187FB4E712"
-300,"r243114","The Mighty Mighty Bosstones","AR2SMD91187B9B0582"
-301,"r139866","311","ARDRXUM1187FB4D131"
-303,"r326012","Ryan Adams & The Cardinals","ARGHBVV1187FB4D57A"
-304,"r42645","Shabazz Palaces","ARHYOMK1241B9CC92D"
-306,"r352450","Reggie And The Full Effect","ARJF0OK1187FB51ECE"
-307,"r398048","310","AR6ZCM11187B9B7084"
-309,"r365083","Pavement","ARVFF0Y1187B9AC3CA"
-299,"r203806","Shawn McDonald","ARDQK7V1187B9A24F3"
-364,"r1145495","User","AR20JH81187B996528"
-376,"r888648","Captain Hollywood Project","AR19JS91187B98CB66"
-392,"r240855","Danko Jones","ARK9A3Y1187FB4C02B"
-404,"r168289","The Ready Set","ARJOO2211A348F04DA"
-418,"r243200","Ricky Martin","AR2FSX31187B98E3EF"
-430,"r3563","Ella Fitzgerald","ARIJE1A1187B9A458D"
-442,"r838647","A Hawk And A Hacksaw","ARLSWXA1187B98E534"
-457,"r8911","Joe Jackson","ARQZZ8L1187B98E2F6"
-470,"r93706","The Moldy Peaches","ARYY90F1187FB39ED9"
-484,"r393234","Junk Culture","ARRWFFC12406A89C2E"
