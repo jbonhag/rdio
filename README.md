@@ -1,3 +1,11 @@
+# OS X:
+
+1. Install Firefox
+2. Download slimerjs -- http://download.slimerjs.org/releases/0.9.6/slimerjs-0.9.6-mac.tar.bz2
+3. `export SLIMERJSLAUNCHER=/Applications/Firefox.app/Contents/MacOS/firefox`
+
+# Linux
+
 Thanks to the magic of Xvfb, we can run this in a terminal:
 
     Xvfb :1 &

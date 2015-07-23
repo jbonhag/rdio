@@ -1,10 +1,5 @@
 $LOAD_PATH << '.'
 require 'rdio'
-require 'dotenv'
-
-Dotenv.load
-
-rdio = Rdio.new([ENV['RDIO_CONSUMER_KEY'], ENV['RDIO_CONSUMER_SECRET']])
 
 rdio.token = [ENV['RDIO_TOKEN'], ENV['RDIO_TOKEN_SECRET']]
 
