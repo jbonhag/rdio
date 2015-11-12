@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "dotenv": "0.4.0",
-    "oauth": "0.9.12"
-  }
-}
