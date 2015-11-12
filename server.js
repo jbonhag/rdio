@@ -62,7 +62,7 @@ server.listen(8083, function(request, response) {
   if (request.method === 'POST') {
     play(accessToken, request.post.query);
     response.setHeader('Content-Type', 'text/plain');
-    response.write('OK');
+    response.write('');
     response.close()
   }
 });
