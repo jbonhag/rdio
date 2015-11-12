@@ -1,4 +1,4 @@
-# OS X:
+## OS X:
 
 1. Install Firefox 41.0
 2. git submodule foreach git pull origin master
@@ -19,7 +19,7 @@ But you can use:
 
     ./start-slimer
 
-# Linux
+## Linux
 
 Thanks to the magic of Xvfb, we can run this in a terminal:
 
