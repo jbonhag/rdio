@@ -3,7 +3,7 @@
 play() {
   echo "play"
   echo "$1"
-  curl http://localhost:8083 --data "play=$1"
+  curl http://localhost:8083 --data "query=$1"
 }
 
 case $1 in
