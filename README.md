@@ -1,8 +1,10 @@
 ## OS X:
 
 1. Install Firefox 41.0
-2. git submodule foreach git pull origin master
+2. `git submodule foreach git pull origin master`
 3. `export SLIMERJSLAUNCHER=/Applications/Firefox.app/Contents/MacOS/firefox`
+4. `source rdio`
+5. `rdio play "sail to the moon"`
 
 Right now, I keep the `CLIENT_ID` and `CLIENT_SECRET` for Rdio in a `.env`
 file.  We can keep it kind of simple because the application doesn't require
@@ -24,10 +26,9 @@ But you can use:
 Thanks to the magic of Xvfb, we can run this in a terminal:
 
     Xvfb :1 &
-    DISPLAY=:1 ./slimer -P default server.js &
-    . client
-    init
-    play "sail to the moon"
+    DISPLAY=:1 dotenv ./slimerjs/src/slimerjs -P default server.js &
+    source rdio
+    rdio play "sail to the moon"
 
 > http://docs.slimerjs.org/current/configuration.html#profiles
 
