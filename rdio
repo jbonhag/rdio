@@ -1,0 +1,12 @@
+#!/bin/bash
+
+play() {
+  echo "play"
+  echo "$1"
+  curl http://localhost:8083 --data "play=$1"
+}
+
+case $1 in
+  "play") play "$2"
+  ;;
+esac
