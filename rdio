@@ -6,7 +6,9 @@ play() {
   curl http://localhost:8083 --data "query=$1"
 }
 
-case $1 in
-  "play") play "$2"
-  ;;
-esac
+rdio() {
+  case $1 in
+    "play") play "$2"
+    ;;
+  esac
+}
