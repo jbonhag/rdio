@@ -1,7 +1,7 @@
 # OS X:
 
-1. Install Firefox
-2. Download slimerjs -- http://download.slimerjs.org/releases/0.9.6/slimerjs-0.9.6-mac.tar.bz2
+1. Install Firefox 41.0
+2. git submodule foreach git pull origin master
 3. `export SLIMERJSLAUNCHER=/Applications/Firefox.app/Contents/MacOS/firefox`
 
 # Linux
@@ -32,3 +32,6 @@ lock the profile so you won't be able to launch Firefox.
 
     slimerjs.bat -profile %APPDATA%\Mozilla\Firefox\Profiles\5zkt9prg.default server.js
 
+On OS X, your profile will be somewhere like:
+
+    ~/Library/Application\ Support/Firefox/Profiles/k1cel1bq.default
