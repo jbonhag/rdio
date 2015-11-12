@@ -1,1 +1,2 @@
-slimerjs -profile $HOME/.mozilla/firefox/*.default server.js &
+#!/bin/bash
+dotenv ./slimerjs/src/slimerjs -profile ~/Library/Application\ Support/Firefox/Profiles/k1cel1bq.default server.js

@@ -4,6 +4,21 @@
 2. git submodule foreach git pull origin master
 3. `export SLIMERJSLAUNCHER=/Applications/Firefox.app/Contents/MacOS/firefox`
 
+Right now, I keep the `CLIENT_ID` and `CLIENT_SECRET` for Rdio in a `.env`
+file.  We can keep it kind of simple because the application doesn't require
+user authentication -- just an access token.  When the server starts it will
+automatically fetch an access token and hold onto it for the duration of its
+lifespan.
+
+Because we also want to pull in our Firefox profile (see below), the command to
+start the server is kind of a doozy:
+
+    dotenv ./slimerjs/src/slimerjs -profile ~/Library/Application\ Support/Firefox/Profiles/k1cel1bq.default server.js
+
+But you can use:
+
+    ./start-slimer
+
 # Linux
 
 Thanks to the magic of Xvfb, we can run this in a terminal:
