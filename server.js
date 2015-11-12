@@ -7,6 +7,7 @@ var ENV = require('system').env;
 var accessToken = "";
 
 var xhr = require('webpage').create();
+xhr.viewportSize = { width: 1, height: 1 };
 
 var authorization = 'Basic ' + btoa(ENV['CLIENT_ID'] + ':' + ENV['CLIENT_SECRET']);
 console.log(authorization);
@@ -30,6 +31,7 @@ xhr.open('https://services.rdio.com/oauth2/token', httpConf).then(function(statu
 
 function play(token, query) {
   var xhr = require('webpage').create();
+  xhr.viewportSize = { width: 1, height: 1 };
 
   var httpConf = {
     operation: 'post',
