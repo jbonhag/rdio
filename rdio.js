@@ -1,21 +1,21 @@
 var apiswf = null;
 
-var callback_object = {};
+var callbacks = {};
 
-callback_object.ready = function(userInfo) {
+callbacks.ready = function() {
   // find the embed/object element
   apiswf = document.getElementById('apiswf');
+  console.log(apiswf);
+  console.log('now we can dance');
+  apiswf.rdio_play('t2996238');
 };
 
-// not even prerequisites?
-var script = document.createElement('script');
-script.src = "https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js";
-script.addEventListener('load', function() {
+function ready() {
   console.log(swfobject);
   var flashvars = {
     'playbackToken': "GAlNi78J_____zlyYWs5ZG02N2pkaHlhcWsyOWJtYjkyN2xvY2FsaG9zdEbwl7EHvbylWSWFWYMZwfc=",
     'domain': 'localhost',
-    'listener': 'callback_object'
+    'listener': 'callbacks'
   };
 
   var params = {
@@ -33,8 +33,12 @@ script.addEventListener('load', function() {
                      flashvars,
                      params,
                      attributes);
-});
+};
 
+// not even prerequisites?
+var script = document.createElement('script');
+script.src = "https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js";
+script.addEventListener('load', ready);
 document.body.appendChild(script);
 
 var playStates = [
@@ -45,52 +49,52 @@ var playStates = [
   "paused"
 ];
 
-callback_object.playStateChanged = function(playState) {
+callbacks.playStateChanged = function(playState) {
   console.log('playStateChanged → ' + playStates[playState]);
 };
 
-callback_object.playingTrackChanged = function(playingTrack, sourcePosition) {
+callbacks.playingTrackChanged = function(playingTrack, sourcePosition) {
   document.body.style.backgroundImage = "url(" + playingTrack.bigIcon1200 + ")";
   document.body.style.backgroundRepeat = "no-repeat";
   document.body.style.backgroundX = "center";
   console.log(sourcePosition);
 };
 
-callback_object.playingSourceChanged = function(playingSource) {
+callbacks.playingSourceChanged = function(playingSource) {
   console.log(playingSource);
 };
 
-callback_object.volumeChanged = function(volume) {
+callbacks.volumeChanged = function(volume) {
   console.log('volumeChanged → ' + volume);
 };
 
-callback_object.muteChanged = function(mute) {
+callbacks.muteChanged = function(mute) {
   console.log('muteChanged → muting ' (mute ? 'enabled' : 'disabled'));
 };
 
-callback_object.positionChanged = function(position) {
+callbacks.positionChanged = function(position) {
   console.log('positionChanged → ' + position);
 };
 
-callback_object.queueChanged = function(newQueue) {
+callbacks.queueChanged = function(newQueue) {
   console.log(newQueue);
 };
 
-callback_object.shuffleChanged = function(shuffle) {
+callbacks.shuffleChanged = function(shuffle) {
   console.log(shuffle);
 };
 
-callback_object.repeatChanged = function(repeat) {
+callbacks.repeatChanged = function(repeat) {
   console.log(repeat);
 };
 
-callback_object.updateFrequencyData = function(frequencyData) {
+callbacks.updateFrequencyData = function(frequencyData) {
   console.log(frequencyData);
 };
 
-callback_object.playingSomewhereElse = function() {};
+callbacks.playingSomewhereElse = function() {};
 
-callback_object.freeRemainingChanged = function(freeRemaining) {
+callbacks.freeRemainingChanged = function(freeRemaining) {
   console.log(freeRemaining);
 };
 
