@@ -7,6 +7,7 @@ var WebSocketServer = require("ws").Server;
 var btoa = require('btoa');
 var https = require('https');
 
+var access_token;
 var options = {
   hostname: 'services.rdio.com',
   path: '/oauth2/token',
@@ -16,7 +17,6 @@ var options = {
     'Content-Type': 'application/x-www-form-urlencoded'
   }
 };
-var access_token;
 var req = https.request(options, function(res) {
   res.on('data', function(d) {
     var data = JSON.parse(d);
@@ -58,6 +58,31 @@ wss.broadcast = function(data) {
 
 app.post('/', function (req, res) {
   var query = req.body.query;
-  wss.broadcast(query);
+
+  var options = {
+    hostname: 'services.rdio.com',
+    path: '/api/1/',
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded'
+    }
+  };
+  var req = https.request(options, function(res) {
+    var body = '';
+    res.on('data', function(d) {
+      body = body + d;
+    });
+    res.on('end', function() {
+      console.log(body);
+      var data = JSON.parse(body);
+      var key = data.result.results[0].key;
+      console.log(key);
+      wss.broadcast(key);
+    });
+  });
+  req.write('access_token='+access_token+'&method=search&query='+encodeURIComponent(query)+'&types=t');
+  req.end();
+
   res.send('');
 });
+
