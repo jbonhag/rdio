@@ -3,8 +3,14 @@ var callbacks = {};
 
 callbacks.ready = function() {
   apiswf = document.getElementById('apiswf');
-  console.log('now we can dance');
 };
+
+callbacks.playingTrackChanged = function(track) {
+  document.body.style.backgroundImage = "url(" + track.bigIcon1200 + ")";
+  document.body.style.backgroundRepeat = "no-repeat";
+  document.body.style.backgroundX = "center";
+  document.body.style.backgroundSize = "cover";
+}
 
 function ready() {
   var flashvars = {
@@ -39,5 +45,14 @@ document.body.appendChild(script);
 var host = location.origin.replace(/^http/, 'ws')
 var ws = new WebSocket(host);
 ws.onmessage = function (event) {
-  apiswf.rdio_play(event.data);
+  var data = JSON.parse(event.data);
+
+  switch (data.command) {
+    case 'play':
+      apiswf.rdio_play(data.key);
+      break;
+    case 'stop':
+      apiswf.rdio_stop();
+      break;
+  }
 };

@@ -57,31 +57,40 @@ wss.broadcast = function(data) {
 };
 
 app.post('/', function (req, res) {
-  var query = req.body.query;
+  var command = req.body.command;
 
-  var options = {
-    hostname: 'services.rdio.com',
-    path: '/api/1/',
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/x-www-form-urlencoded'
-    }
-  };
-  var req = https.request(options, function(res) {
-    var body = '';
-    res.on('data', function(d) {
-      body = body + d;
-    });
-    res.on('end', function() {
-      console.log(body);
-      var data = JSON.parse(body);
-      var key = data.result.results[0].key;
-      console.log(key);
-      wss.broadcast(key);
-    });
-  });
-  req.write('access_token='+access_token+'&method=search&query='+encodeURIComponent(query)+'&types=t');
-  req.end();
+  switch (command) {
+    case 'play':
+      var query = req.body.query;
+
+      var options = {
+        hostname: 'services.rdio.com',
+        path: '/api/1/',
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        }
+      };
+      var req = https.request(options, function(res) {
+        var body = '';
+        res.on('data', function(d) {
+          body = body + d;
+        });
+        res.on('end', function() {
+          console.log(body);
+          var data = JSON.parse(body);
+          var key = data.result.results[0].key;
+          console.log(key);
+          wss.broadcast(JSON.stringify({command: 'play', key: key}));
+        });
+      });
+      req.write('access_token='+access_token+'&method=search&query='+encodeURIComponent(query)+'&types=t');
+      req.end();
+      break;
+    case 'stop':
+      wss.broadcast(JSON.stringify({command: 'stop'}));
+      break;
+  }
 
   res.send('');
 });

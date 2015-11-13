@@ -3,12 +3,19 @@
 play() {
   echo "play"
   echo "$1"
-  curl http://localhost:3000 --data "query=$1"
+  curl http://localhost:3000 --data "command=play&query=$1"
+}
+
+stop() {
+  echo "stop"
+  curl http://localhost:3000 --data "command=stop";
 }
 
 rdio() {
   case $1 in
     "play") play "$2"
+    ;;
+    "stop") stop
     ;;
   esac
 }
