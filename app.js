@@ -79,9 +79,11 @@ app.post('/', function (req, res) {
         res.on('end', function() {
           console.log(body);
           var data = JSON.parse(body);
-          var key = data.result.results[0].key;
-          console.log(key);
-          wss.broadcast(JSON.stringify({command: 'play', key: key}));
+          if (data.result.results.length > 0) {
+            var key = data.result.results[0].key;
+            console.log(key);
+            wss.broadcast(JSON.stringify({command: 'play', key: key}));
+          }
         });
       });
       req.write('access_token='+access_token+'&method=search&query='+encodeURIComponent(query)+'&types=t');
