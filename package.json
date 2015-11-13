@@ -1,0 +1,26 @@
+{
+  "name": "rdio",
+  "version": "1.0.0",
+  "description": "1. Install Firefox 41.0 2. `git submodule foreach git pull origin master` 3. `export SLIMERJSLAUNCHER=/Applications/Firefox.app/Contents/MacOS/firefox` 4. `source rdio` 5. `rdio play \"sail to the moon\"`",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffbonhag/rdio.git"
+  },
+  "author": "Jeff Bonhag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffbonhag/rdio/issues"
+  },
+  "homepage": "https://github.com/jeffbonhag/rdio",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "btoa": "^1.1.2",
+    "dotenv": "^1.2.0",
+    "ws": "^0.8.0"
+  }
+}

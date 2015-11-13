@@ -35,3 +35,9 @@ var script = document.createElement('script');
 script.src = "https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js";
 script.addEventListener('load', ready);
 document.body.appendChild(script);
+
+var host = location.origin.replace(/^http/, 'ws')
+var ws = new WebSocket(host);
+ws.onmessage = function (event) {
+  apiswf.rdio_play(event.data);
+};
