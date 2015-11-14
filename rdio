@@ -1,14 +1,16 @@
 #!/bin/bash
 
+URL=http://sleepy-reaches-5806.herokuapp.com
+
 play() {
   echo "play"
   echo "$1"
-  curl http://localhost:3000 --data "command=play&query=$1"
+  curl $URL --data "command=play&query=$1"
 }
 
 stop() {
   echo "stop"
-  curl http://localhost:3000 --data "command=stop";
+  curl $URL --data "command=stop";
 }
 
 case $1 in
