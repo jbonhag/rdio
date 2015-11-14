@@ -4,6 +4,7 @@ var bodyParser = require('body-parser');
 var fs = require('fs');
 var WebSocketServer = require("ws").Server;
 var https = require('https');
+var port = process.env.PORT || 5000;
 
 var access_token;
 var playback_token;
@@ -73,7 +74,7 @@ app.get('/token.js', function(req, res) {
            'var domain = "'+domain+'";\n');
 });
 
-var server = app.listen(3000, function () {
+var server = app.listen(port, function () {
   var host = server.address().address;
   var port = server.address().port;
 
