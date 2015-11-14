@@ -14,8 +14,8 @@ callbacks.playingTrackChanged = function(track) {
 
 function ready() {
   var flashvars = {
-    'playbackToken': "GAlNi78J_____zlyYWs5ZG02N2pkaHlhcWsyOWJtYjkyN2xvY2FsaG9zdEbwl7EHvbylWSWFWYMZwfc=",
-    'domain': 'localhost',
+    'playbackToken': playback_token,
+    'domain': domain,
     'listener': 'callbacks'
   };
 

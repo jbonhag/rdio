@@ -4,11 +4,11 @@ var app = express();
 var bodyParser = require('body-parser');
 var fs = require('fs');
 var WebSocketServer = require("ws").Server;
-var btoa = require('btoa');
 var https = require('https');
 
 var access_token;
-var playbackToken;
+var playback_token;
+var domain = process.env.DOMAIN || 'localhost';
 
 function getPlaybackToken() {
   var options = {
@@ -20,9 +20,13 @@ function getPlaybackToken() {
     }
   };
   var req = https.request(options, function(res) {
-    console.log(res);
+    res.on('data', function(d) {
+      var data = JSON.parse(d);
+      playback_token = data.result;
+      console.log('playback_token: ' + playback_token);
+    });
   });
-  req.write('access_token='+access_token+'&method=getPlaybackToken&domain=sleepy-reaches-5806.herokuapp.com');
+  req.write('access_token='+access_token+'&method=getPlaybackToken&domain='+domain);
   req.end();
 }
 
@@ -40,7 +44,7 @@ function getAccessToken() {
     res.on('data', function(d) {
       var data = JSON.parse(d);
       access_token = data.access_token;
-      console.log(access_token);
+      console.log('access_token: ' + access_token);
       getPlaybackToken();
     });
   });
@@ -62,6 +66,12 @@ app.get('/rdio.js', function (req, res) {
   fs.readFile('rdio.js', function (err, data) {
     res.end(data);
   });
+});
+
+app.get('/token.js', function(req, res) {
+  res.set('Content-Type', 'text/javascript');
+  res.send('var playback_token = "'+playback_token+'";\n' +
+           'var domain = "'+domain+'";\n');
 });
 
 var server = app.listen(3000, function () {
@@ -120,6 +130,6 @@ app.post('/', function (req, res) {
       break;
   }
 
-  res.send('');
+  res.send('ok\n');
 });
 
