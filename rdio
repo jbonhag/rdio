@@ -11,11 +11,9 @@ stop() {
   curl http://localhost:3000 --data "command=stop";
 }
 
-rdio() {
-  case $1 in
-    "play") play "$2"
-    ;;
-    "stop") stop
-    ;;
-  esac
-}
+case $1 in
+  "play") play "$2"
+  ;;
+  "stop") stop
+  ;;
+esac

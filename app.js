@@ -8,24 +8,47 @@ var btoa = require('btoa');
 var https = require('https');
 
 var access_token;
-var options = {
-  hostname: 'services.rdio.com',
-  path: '/oauth2/token',
-  method: 'POST',
-  auth: process.env.CLIENT_ID + ':' + process.env.CLIENT_SECRET,
-  headers: {
-    'Content-Type': 'application/x-www-form-urlencoded'
-  }
-};
-var req = https.request(options, function(res) {
-  res.on('data', function(d) {
-    var data = JSON.parse(d);
-    access_token = data.access_token;
-    console.log(access_token);
+var playbackToken;
+
+function getPlaybackToken() {
+  var options = {
+    hostname: 'services.rdio.com',
+    path: '/api/1/',
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded'
+    }
+  };
+  var req = https.request(options, function(res) {
+    console.log(res);
   });
-});
-req.write('grant_type=client_credentials');
-req.end();
+  req.write('access_token='+access_token+'&method=getPlaybackToken&domain=sleepy-reaches-5806.herokuapp.com');
+  req.end();
+}
+
+function getAccessToken() {
+  var options = {
+    hostname: 'services.rdio.com',
+    path: '/oauth2/token',
+    method: 'POST',
+    auth: process.env.CLIENT_ID + ':' + process.env.CLIENT_SECRET,
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded'
+    }
+  };
+  var req = https.request(options, function(res) {
+    res.on('data', function(d) {
+      var data = JSON.parse(d);
+      access_token = data.access_token;
+      console.log(access_token);
+      getPlaybackToken();
+    });
+  });
+  req.write('grant_type=client_credentials');
+  req.end();
+}
+
+getAccessToken();
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -56,38 +79,41 @@ wss.broadcast = function(data) {
   });
 };
 
+function playFirstTrack(query) {
+  var options = {
+    hostname: 'services.rdio.com',
+    path: '/api/1/',
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded'
+    }
+  };
+  var req = https.request(options, function(res) {
+    var body = '';
+    res.on('data', function(d) {
+      body = body + d;
+    });
+    res.on('end', function() {
+      console.log(body);
+      var data = JSON.parse(body);
+      if (data.result.results.length > 0) {
+        var key = data.result.results[0].key;
+        console.log(key);
+        wss.broadcast(JSON.stringify({command: 'play', key: key}));
+      }
+    });
+  });
+  req.write('access_token='+access_token+'&method=search&query='+encodeURIComponent(query)+'&types=t');
+  req.end();
+}
+
 app.post('/', function (req, res) {
   var command = req.body.command;
 
   switch (command) {
     case 'play':
       var query = req.body.query;
-
-      var options = {
-        hostname: 'services.rdio.com',
-        path: '/api/1/',
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded'
-        }
-      };
-      var req = https.request(options, function(res) {
-        var body = '';
-        res.on('data', function(d) {
-          body = body + d;
-        });
-        res.on('end', function() {
-          console.log(body);
-          var data = JSON.parse(body);
-          if (data.result.results.length > 0) {
-            var key = data.result.results[0].key;
-            console.log(key);
-            wss.broadcast(JSON.stringify({command: 'play', key: key}));
-          }
-        });
-      });
-      req.write('access_token='+access_token+'&method=search&query='+encodeURIComponent(query)+'&types=t');
-      req.end();
+      playFirstTrack(query);
       break;
     case 'stop':
       wss.broadcast(JSON.stringify({command: 'stop'}));
