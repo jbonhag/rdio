@@ -49,7 +49,11 @@ ws.onmessage = function (event) {
 
   switch (data.command) {
     case 'play':
-      apiswf.rdio_play(data.key);
+      if (data.key !== undefined) {
+        apiswf.rdio_play(data.key);
+      } else {
+        apiswf.rdio_play();
+      }
       break;
     case 'pause':
       apiswf.rdio_pause();

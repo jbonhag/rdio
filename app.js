@@ -114,6 +114,7 @@ var search = function(query, callback) {
 
 app.post('/', function (req, res) {
   console.log('post', '/');
+  console.log(req.body);
   var command = req.body.command;
   console.log('command', command);
 
@@ -121,7 +122,11 @@ app.post('/', function (req, res) {
     case 'play':
       var key = req.body.key;
       console.log('key', key);
-      wss.broadcast(JSON.stringify({command: 'play', key: key}));
+      if (key != '') {
+        wss.broadcast(JSON.stringify({command: 'play', key: key}));
+      } else {
+        wss.broadcast(JSON.stringify({command: 'play'}));
+      }
       res.send('ok\n');
       break;
     case 'pause':
