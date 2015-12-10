@@ -3,31 +3,124 @@
 URL=http://localhost:5000
 
 play() {
-  curl $URL --data "command=play&key=$1"
+  curl $URL --data "command=play&key=$1&initialPosition=$2"
+}
+
+pause() {
+  curl $URL --data "command=pause"
+}
+
+stop() {
+  curl $URL --data "command=stop"
+}
+
+next() {
+  curl $URL --data "command=next"
+}
+
+previous() {
+  curl $URL --data "command=previous"
+}
+
+seek() {
+  curl $URL --data "command=seek&position=$1"
+}
+
+setShuffle() {
+  curl $URL --data "command=setShuffle&shuffle=$1"
+}
+
+setRepeat() {
+  curl $URL --data "command=setRepeat&repeat=$1"
 }
 
 queue() {
-  echo "queue"
-  echo "$1"
-  curl $URL --data "command=queue&query=$1"
+  curl $URL --data "command=queue&key=$1"
+}
+
+setVolume() {
+  curl $URL --data "command=setVolume&volume=$1"
+}
+
+setMute() {
+  curl $URL --data "command=setMute&mute=$1"
+}
+
+playQueuedTrack() {
+  curl $URL --data "command=playQueuedTrack&position=$1&offset=$2"
+}
+
+moveQueuedSource() {
+  curl $URL --data "command=moveQueuedSource&from=$1&to=$2"
+}
+
+clearQueue() {
+  curl $URL --data "command=clearQueue"
+}
+
+setCurrentPosition() {
+  curl $URL --data "command=setCurrentPosition&sourceIndex=$1"
+}
+
+removeFromQueue() {
+  curl $URL --data "command=removeFromQueue&sourceIndex=$1"
+}
+
+sendState() {
+  curl $URL --data "command=sendState"
+}
+
+startFrequencyAnalyzer() {
+  curl $URL --data "command=startFrequencyAnalyzer&period=$1&frequencies=$2"
+}
+
+stopFrequencyAnalyzer() {
+  curl $URL --data "command=stopFrequencyAnalyzer"
 }
 
 search() {
   curl $URL --data "command=search&query=$1"
 }
 
-stop() {
-  echo "stop"
-  curl $URL --data "command=stop";
-}
-
 case $1 in
-  "play") play "$2"
-  ;;
-  "queue") queue "$2"
-  ;;
-  "search") search "$2"
-  ;;
-  "stop") stop
-  ;;
+  play) play $2
+    ;;
+  pause) pause
+    ;;
+  stop) stop
+    ;;
+  next) next $2
+    ;;
+  previous) previous
+    ;;
+  seek) seek $2
+    ;;
+  setShuffle) setShuffle $2
+    ;;
+  setRepeat) setRepeat $2
+    ;;
+  queue) queue $2
+    ;;
+  setVolume) setVolume $2
+    ;;
+  setMute) setMute $2
+    ;;
+  playQueuedTrack) playQueuedTrack $2 $3
+    ;;
+  moveQueuedSource) moveQueuedSource $2 $3
+    ;;
+  clearQueue) clearQueue
+    ;;
+  setCurrentPosition) setCurrentPosition $2
+    ;;
+  removeFromQueue) removeFromQueue $2
+    ;;
+  sendState) sendState
+    ;;
+  startFrequencyAnalyzer) startFrequencyAnalyzer $2 $3
+    ;;
+  stopFrequencyAnalyzer) stopFrequencyAnalyzer
+    ;;
+  search) search "$2"
+    ;;
 esac
