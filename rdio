@@ -123,4 +123,6 @@ case $1 in
     ;;
   search) search "$2"
     ;;
+  *) echo "Usage: $0 play|pause|stop|next|previous|seek|setShuffle|setRepeat|queue|setVolume|setMute|playQueuedTrack|moveQueuedSource|clearQueue|setCurrentPosition|removeFromQueue|sendState|startFrequencyAnalyzer|stopFrequencyAnalyzer|search"
+    exit 1
 esac
