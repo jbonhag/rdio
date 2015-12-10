@@ -1,11 +1,19 @@
 #!/bin/bash
 
-URL=http://sleepy-reaches-5806.herokuapp.com
+URL=http://localhost:5000
 
 play() {
-  echo "play"
+  curl $URL --data "command=play&key=$1"
+}
+
+queue() {
+  echo "queue"
   echo "$1"
-  curl $URL --data "command=play&query=$1"
+  curl $URL --data "command=queue&query=$1"
+}
+
+search() {
+  curl $URL --data "command=search&query=$1"
 }
 
 stop() {
@@ -15,6 +23,10 @@ stop() {
 
 case $1 in
   "play") play "$2"
+  ;;
+  "queue") queue "$2"
+  ;;
+  "search") search "$2"
   ;;
   "stop") stop
   ;;

@@ -31,6 +31,7 @@ function getPlaybackToken() {
 }
 
 function getAccessToken() {
+  console.log('getAccessToken');
   var options = {
     hostname: 'services.rdio.com',
     path: '/oauth2/token',
@@ -89,7 +90,8 @@ wss.broadcast = function(data) {
   });
 };
 
-function playFirstTrack(query) {
+var search = function(query, callback) {
+  console.log('search', query);
   var options = {
     hostname: 'services.rdio.com',
     path: '/api/1/',
@@ -104,32 +106,35 @@ function playFirstTrack(query) {
       body = body + d;
     });
     res.on('end', function() {
-      console.log(body);
-      var data = JSON.parse(body);
-      if (data.result.results.length > 0) {
-        var key = data.result.results[0].key;
-        console.log(key);
-        wss.broadcast(JSON.stringify({command: 'play', key: key}));
-      }
+      callback(null, JSON.parse(body));
     });
   });
   req.write('access_token='+access_token+'&method=search&query='+encodeURIComponent(query)+'&types=t');
   req.end();
-}
+};
 
 app.post('/', function (req, res) {
+  console.log('post', '/');
   var command = req.body.command;
+  console.log('command', command);
 
   switch (command) {
     case 'play':
-      var query = req.body.query;
-      playFirstTrack(query);
+      var key = req.body.key;
+      console.log('key', key);
+      wss.broadcast(JSON.stringify({command: 'play', key: key}));
+      res.send('ok\n');
       break;
     case 'stop':
       wss.broadcast(JSON.stringify({command: 'stop'}));
+      res.send('ok\n');
+      break;
+    case 'search':
+      var query = req.body.query;
+      search(query, function(err, result) {
+        res.send(result);
+      });
       break;
   }
-
-  res.send('ok\n');
 });
 
