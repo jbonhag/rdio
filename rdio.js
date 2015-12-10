@@ -51,8 +51,59 @@ ws.onmessage = function (event) {
     case 'play':
       apiswf.rdio_play(data.key);
       break;
+    case 'pause':
+      apiswf.rdio_pause();
+      break;
     case 'stop':
       apiswf.rdio_stop();
+      break;
+    case 'next':
+      apiswf.rdio_next();
+      break;
+    case 'previous':
+      apiswf.rdio_previous();
+      break;
+    case 'seek':
+      apiswf.rdio_seek(data.position);
+      break;
+    case 'setShuffle':
+      apiswf.rdio_setShuffle(data.shuffle);
+      break;
+    case 'setRepeat':
+      apiswf.rdio_setRepeat(data.mode);
+      break;
+    case 'queue':
+      apiswf.rdio_queue(data.key);
+      break;
+    case 'setVolume':
+      apiswf.rdio_setVolume(data.volume);
+      break;
+    case 'setMute':
+      apiswf.rdio_setMute(data.mute);
+      break;
+    case 'playQueuedTrack':
+      apiswf.rdio_playQueuedTrack(data.position, data.offset);
+      break;
+    case 'moveQueuedSource':
+      apiswf.rdio_moveQueuedSource(data.from, data.to);
+      break;
+    case 'clearQueue':
+      apiswf.rdio_clearQueue();
+      break;
+    case 'setCurrentPosition':
+      apiswf.rdio_setCurrentPosition(data.sourceIndex);
+      break;
+    case 'removeFromQueue':
+      apiswf.rdio_removeFromQueue(data.sourceIndex);
+      break;
+    case 'sendState':
+      apiswf.rdio_sendState();
+      break;
+    case 'startFrequencyAnalyzer':
+      apiswf.rdio_startFrequencyAnalyzer(data.options);
+      break;
+    case 'stopFrequencyAnalyzer':
+      apiswf.rdio_stopFrequencyAnalyzer();
       break;
   }
 };

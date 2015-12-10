@@ -121,12 +121,94 @@ app.post('/', function (req, res) {
   switch (command) {
     case 'play':
       var key = req.body.key;
-      console.log('key', key);
       wss.broadcast(JSON.stringify({command: 'play', key: key}));
+      res.send('ok\n');
+      break;
+    case 'pause':
+      wss.broadcast(JSON.stringify({command: 'pause'}));
       res.send('ok\n');
       break;
     case 'stop':
       wss.broadcast(JSON.stringify({command: 'stop'}));
+      res.send('ok\n');
+      break;
+    case 'next':
+      wss.broadcast(JSON.stringify({command: 'next'}));
+      res.send('ok\n');
+      break;
+    case 'previous':
+      wss.broadcast(JSON.stringify({command: 'previous'}));
+      res.send('ok\n');
+      break;
+    case 'seek':
+      var position = req.body.position;
+      wss.broadcast(JSON.stringify({command: 'seek', position: position}));
+      res.send('ok\n');
+      break;
+    case 'setShuffle':
+      var shuffle = req.body.shuffle;
+      wss.broadcast(JSON.stringify({command: 'setShuffle', shuffle: shuffle}));
+      res.send('ok\n');
+      break;
+    case 'setRepeat':
+      var mode = req.body.mode;
+      wss.broadcast(JSON.stringify({command: 'setRepeat', mode: mode}));
+      res.send('ok\n');
+      break;
+    case 'queue':
+      var key = req.body.key;
+      wss.broadcast(JSON.stringify({command: 'queue', key: key}));
+      res.send('ok\n');
+      break;
+    case 'setVolume':
+      var volume = req.body.volume;
+      wss.broadcast(JSON.stringify({command: 'setVolume', volume: volume}));
+      res.send('ok\n');
+      break;
+    case 'setMute':
+      var mute = req.body.mute;
+      wss.broadcast(JSON.stringify({command: 'setMute', mute: mute}));
+      res.send('ok\n');
+      break;
+    case 'playQueuedTrack':
+      var position = req.body.position;
+      var offset = req.body.offset;
+      wss.broadcast(JSON.stringify({command: 'playQueuedTrack', position: position, offset: offset}));
+      res.send('ok\n');
+      break;
+    case 'moveQueuedSource':
+      var from = req.body.from;
+      var to = req.body.to;
+      wss.broadcast(JSON.stringify({command: 'moveQueuedSource', from: from, to: to}));
+      res.send('ok\n');
+      break;
+    case 'clearQueue':
+      wss.broadcast(JSON.stringify({command: 'clearQueue'}));
+      res.send('ok\n');
+      break;
+    case 'setCurrentPosition':
+      var sourceIndex = req.body.sourceIndex;
+      wss.broadcast(JSON.stringify({command: 'setCurrentPosition', sourceIndex: sourceIndex}));
+      res.send('ok\n');
+      break;
+    case 'removeFromQueue':
+      var sourceIndex = req.body.sourceIndex;
+      wss.broadcast(JSON.stringify({command: 'removeFromQueue', sourceIndex: sourceIndex}));
+      res.send('ok\n');
+      break;
+    case 'sendState':
+      wss.broadcast(JSON.stringify({command: 'sendState'}));
+      res.send('ok\n');
+      break;
+    case 'startFrequencyAnalyzer':
+      var period = req.body.period;
+      var frequencies: req.body.frequencies;
+      var options = {period: period, frequencies: frequencies};
+      wss.broadcast(JSON.stringify({command: 'startFrequencyAnalyzer', options: options}));
+      res.send('ok\n');
+      break;
+    case 'stopFrequencyAnalyzer':
+      wss.broadcast(JSON.stringify({command: 'stopFrequencyAnalyzer'}));
       res.send('ok\n');
       break;
     case 'search':
