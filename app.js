@@ -202,7 +202,7 @@ app.post('/', function (req, res) {
       break;
     case 'startFrequencyAnalyzer':
       var period = req.body.period;
-      var frequencies: req.body.frequencies;
+      var frequencies = req.body.frequencies;
       var options = {period: period, frequencies: frequencies};
       wss.broadcast(JSON.stringify({command: 'startFrequencyAnalyzer', options: options}));
       res.send('ok\n');
