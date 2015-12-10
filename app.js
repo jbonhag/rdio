@@ -230,13 +230,14 @@ app.post('/', function (req, res) {
       wss.broadcast(JSON.stringify({command: 'stopFrequencyAnalyzer'}));
       res.send('ok\n');
       break;
-    case 'search':
-      var query = req.body.query;
-      console.log('query', query);
-      search(query, function(err, result) {
-        res.send(result);
-      });
-      break;
   }
 });
 
+app.post('/search', function(req, res) {
+  console.log('post', '/search');
+  var query = req.body.query;
+  console.log('query', query);
+  search(query, function(err, result) {
+    res.send(result);
+  });
+});

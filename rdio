@@ -79,7 +79,7 @@ stopFrequencyAnalyzer() {
 }
 
 search() {
-  curl $URL --data "command=search&query=$1"
+  curl $URL/search --data "query=$1"
 }
 
 case $1 in
