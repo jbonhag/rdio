@@ -91,7 +91,6 @@ wss.broadcast = function(data) {
 };
 
 var search = function(query, callback) {
-  console.log('search', query);
   var options = {
     hostname: 'services.rdio.com',
     path: '/api/1/',
@@ -121,6 +120,7 @@ app.post('/', function (req, res) {
   switch (command) {
     case 'play':
       var key = req.body.key;
+      console.log('key', key);
       wss.broadcast(JSON.stringify({command: 'play', key: key}));
       res.send('ok\n');
       break;
@@ -142,43 +142,53 @@ app.post('/', function (req, res) {
       break;
     case 'seek':
       var position = req.body.position;
+      console.log('position', position);
       wss.broadcast(JSON.stringify({command: 'seek', position: position}));
       res.send('ok\n');
       break;
     case 'setShuffle':
       var shuffle = req.body.shuffle;
+      console.log('shuffle', shuffle);
       wss.broadcast(JSON.stringify({command: 'setShuffle', shuffle: shuffle}));
       res.send('ok\n');
       break;
     case 'setRepeat':
       var mode = req.body.mode;
+      console.log('mode', mode);
       wss.broadcast(JSON.stringify({command: 'setRepeat', mode: mode}));
       res.send('ok\n');
       break;
     case 'queue':
       var key = req.body.key;
+      console.log('key', key);
       wss.broadcast(JSON.stringify({command: 'queue', key: key}));
       res.send('ok\n');
       break;
     case 'setVolume':
       var volume = req.body.volume;
+      console.log('volume', volume);
       wss.broadcast(JSON.stringify({command: 'setVolume', volume: volume}));
       res.send('ok\n');
       break;
     case 'setMute':
       var mute = req.body.mute;
+      console.log('mute', mute);
       wss.broadcast(JSON.stringify({command: 'setMute', mute: mute}));
       res.send('ok\n');
       break;
     case 'playQueuedTrack':
       var position = req.body.position;
       var offset = req.body.offset;
+      console.log('position', position);
+      console.log('offset', offset);
       wss.broadcast(JSON.stringify({command: 'playQueuedTrack', position: position, offset: offset}));
       res.send('ok\n');
       break;
     case 'moveQueuedSource':
       var from = req.body.from;
       var to = req.body.to;
+      console.log('from', from);
+      console.log('to', to);
       wss.broadcast(JSON.stringify({command: 'moveQueuedSource', from: from, to: to}));
       res.send('ok\n');
       break;
@@ -188,11 +198,13 @@ app.post('/', function (req, res) {
       break;
     case 'setCurrentPosition':
       var sourceIndex = req.body.sourceIndex;
+      console.log('sourceIndex', sourceIndex);
       wss.broadcast(JSON.stringify({command: 'setCurrentPosition', sourceIndex: sourceIndex}));
       res.send('ok\n');
       break;
     case 'removeFromQueue':
       var sourceIndex = req.body.sourceIndex;
+      console.log('sourceIndex', sourceIndex);
       wss.broadcast(JSON.stringify({command: 'removeFromQueue', sourceIndex: sourceIndex}));
       res.send('ok\n');
       break;
@@ -203,6 +215,8 @@ app.post('/', function (req, res) {
     case 'startFrequencyAnalyzer':
       var period = req.body.period;
       var frequencies = req.body.frequencies;
+      console.log('period', period);
+      console.log('frequencies', frequencies);
       var options = {period: period, frequencies: frequencies};
       wss.broadcast(JSON.stringify({command: 'startFrequencyAnalyzer', options: options}));
       res.send('ok\n');
@@ -213,6 +227,7 @@ app.post('/', function (req, res) {
       break;
     case 'search':
       var query = req.body.query;
+      console.log('query', query);
       search(query, function(err, result) {
         res.send(result);
       });
