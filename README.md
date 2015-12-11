@@ -19,3 +19,8 @@ your web browser.  You use web browsers, right?
 
     docker build -t rdio .
     docker run --env CLIENT_ID=abcd --env CLIENT_SECRET=efgh -i -t --rm -p 5000:5000 rdio
+
+If you're running Docker on Windows or OS X, you'll have to specify the IP
+address of the boot2docker or docker-machine instance.
+
+    docker run --env CLIENT_ID=abcd --env CLIENT_SECRET=efgh --env DOMAIN=192.168.99.100 -i -t --rm -p 5000:5000 rdio
