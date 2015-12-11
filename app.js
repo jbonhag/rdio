@@ -6,6 +6,8 @@ var WebSocketServer = require("ws").Server;
 var https = require('https');
 var port = process.env.PORT || 5000;
 
+console.log('__dirname', __dirname);
+
 var access_token;
 var playback_token;
 var domain = process.env.DOMAIN || 'localhost';
@@ -58,13 +60,13 @@ getAccessToken();
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', function (req, res) {
-  fs.readFile('index.html', function (err, data) {
+  fs.readFile(__dirname + '/index.html', function (err, data) {
     res.end(data);
   });
 });
 
 app.get('/rdio.js', function (req, res) {
-  fs.readFile('rdio.js', function (err, data) {
+  fs.readFile(__dirname + '/rdio.js', function (err, data) {
     res.end(data);
   });
 });
