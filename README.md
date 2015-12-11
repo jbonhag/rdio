@@ -1,4 +1,4 @@
-Now with WebSockets!!!
+Now with DOCKER(tm)!!!
 
 ## Server
 
@@ -14,3 +14,8 @@ your web browser.  You use web browsers, right?
 
     source rdio
     play "sail to the moon"
+
+## Container
+
+    docker build -t rdio .
+    docker run --env CLIENT_ID=abcd --env CLIENT_SECRET=efgh -i -t --rm -p 5000:5000 rdio
