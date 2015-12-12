@@ -31,7 +31,7 @@ setShuffle() {
 }
 
 setRepeat() {
-  curl $URL --data "command=setRepeat&repeat=$1"
+  curl $URL --data "command=setRepeat&mode=$1"
 }
 
 queue() {
