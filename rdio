@@ -31,7 +31,17 @@ setShuffle() {
 }
 
 setRepeat() {
-  curl $URL --data "command=setRepeat&mode=$1"
+  case $1 in
+    0|"no-repeat") mode=0
+      ;;
+    1|"track-repeat") mode=1
+      ;;
+    2|"whole-source-repeat") mode=2
+      ;;
+    *) echo "Usage: $0 setRepeat no-repeat|track-repeat|whole-source-repeat"
+      exit 2
+  esac
+  curl $URL --data "command=setRepeat&mode=$mode"
 }
 
 queue() {
