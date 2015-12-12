@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p7430200": {
+   "ownerKey": "s12495795", 
+   "name": "nonce", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=244190-0&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DMuMnk/", 
+   "baseIcon": "album/e/d/9/000000000003b9de/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1386455055.0, 
+   "url": "/people/walkaway/playlists/7430200/nonce/", 
+   "tracks": [
+    {
+     "radioKey": "sr2973631", 
+     "baseIcon": "album/e/d/9/000000000003b9de/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr2973631"
+     }, 
+     "artistUrl": "/artist/Hugo_Montenegro/", 
+     "duration": 162, 
+     "dynamicIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a244190-0", 
+     "album": "Music From \"A Fistful Of Dollars\", \"For A Few Dollars More\", \"The Good, The Bad And The Ugly\"", 
+     "isClean": false, 
+     "albumUrl": "/artist/Hugo_Montenegro/album/Music_From_%22A_Fistful_Of_Dollars%22%2C_%22For_A_Few_Dollars_More%22%2C_%22The_Good%2C_The_Bad_And_The_Ugly%22/", 
+     "shortUrl": "http://rd.io/x/QeHp7DdyDf4/", 
+     "albumArtist": "Hugo Montenegro", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DdyDf4/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a244190-0%3Aboxblur%2810%25%2C10%25%29%3Ba244190-0%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba244190-0%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 6, 
+     "albumArtistKey": "r18641", 
+     "key": "t2973631", 
+     "icon": "http://rdio1img-a.akamaihd.net/album/e/d/9/000000000003b9de/square-200.jpg", 
+     "canSample": true, 
+     "name": "For A Few Dollars More", 
+     "isExplicit": false, 
+     "artist": "Hugo Montenegro", 
+     "url": "/artist/Hugo_Montenegro/album/Music_From_%22A_Fistful_Of_Dollars%22%2C_%22For_A_Few_Dollars_More%22%2C_%22The_Good%2C_The_Bad_And_The_Ugly%22/track/For_A_Few_Dollars_More/", 
+     "icon400": "http://rdio3img-a.akamaihd.net/album/e/d/9/000000000003b9de/square-400.jpg", 
+     "artistKey": "r18641", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a244190"
+    }
+   ], 
+   "key": "p7430200", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DMuMnk/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a244190-0%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

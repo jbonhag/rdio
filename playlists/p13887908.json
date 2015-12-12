@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p13887908": {
+   "ownerKey": "s12495795", 
+   "name": "document", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=184401-1&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DOMu-U/", 
+   "baseIcon": "album/1/5/0/000000000002d051/1/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1437004346.0, 
+   "url": "/people/walkaway/playlists/13887908/document/", 
+   "tracks": [
+    {
+     "radioKey": "sr2223578", 
+     "baseIcon": "album/1/5/0/000000000002d051/1/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr2223578"
+     }, 
+     "artistUrl": "/artist/Built_To_Spill/", 
+     "duration": 322, 
+     "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a184401-1", 
+     "album": "Keep It Like A Secret", 
+     "isClean": false, 
+     "albumUrl": "/artist/Built_To_Spill/album/Keep_It_Like_A_Secret/", 
+     "shortUrl": "http://rd.io/x/QeHp7Dd-v5s/", 
+     "albumArtist": "Built To Spill", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7Dd-v5s/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a184401-1%3Aboxblur%2810%25%2C10%25%29%3Ba184401-1%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba184401-1%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 6, 
+     "albumArtistKey": "r85592", 
+     "key": "t2223578", 
+     "icon": "http://img00.cdn2-rdio.com/album/1/5/0/000000000002d051/1/square-200.jpg", 
+     "canSample": true, 
+     "name": "Time Trap", 
+     "isExplicit": false, 
+     "artist": "Built To Spill", 
+     "url": "/artist/Built_To_Spill/album/Keep_It_Like_A_Secret/track/Time_Trap/", 
+     "icon400": "http://img02.cdn2-rdio.com/album/1/5/0/000000000002d051/1/square-400.jpg", 
+     "artistKey": "r85592", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a184401"
+    }
+   ], 
+   "key": "p13887908", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DOMu-U/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a184401-1%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

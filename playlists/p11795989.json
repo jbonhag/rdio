@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p11795989": {
+   "ownerKey": "s12495795", 
+   "name": "precious", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=386306-0&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DPsrFQ/", 
+   "baseIcon": "album/2/0/5/000000000005e502/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1415104454.0, 
+   "url": "/people/walkaway/playlists/11795989/precious/", 
+   "tracks": [
+    {
+     "radioKey": "sr4749033", 
+     "baseIcon": "album/2/0/5/000000000005e502/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr4749033"
+     }, 
+     "artistUrl": "/artist/The_Coup/", 
+     "duration": 305, 
+     "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a386306-0", 
+     "album": "Genocide & Juice", 
+     "isClean": false, 
+     "albumUrl": "/artist/The_Coup/album/Genocide__Juice/", 
+     "shortUrl": "http://rd.io/x/QeHp7DcXJKg/", 
+     "albumArtist": "The Coup", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DcXJKg/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a386306-0%3Aboxblur%2810%25%2C10%25%29%3Ba386306-0%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba386306-0%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 3, 
+     "albumArtistKey": "r87865", 
+     "key": "t4749033", 
+     "icon": "http://img02.cdn2-rdio.com/album/2/0/5/000000000005e502/square-200.jpg", 
+     "canSample": true, 
+     "name": "Pimps (Free Stylin At The Fortune 500 Club)", 
+     "isExplicit": true, 
+     "artist": "The Coup", 
+     "url": "/artist/The_Coup/album/Genocide__Juice/track/Pimps_(Free_Stylin_At_The_Fortune_500_Club)/", 
+     "icon400": "http://img00.cdn2-rdio.com/album/2/0/5/000000000005e502/square-400.jpg", 
+     "artistKey": "r87865", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a386306"
+    }
+   ], 
+   "key": "p11795989", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DPsrFQ/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a386306-0%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

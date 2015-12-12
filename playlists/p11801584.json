@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p11801584": {
+   "ownerKey": "s12495795", 
+   "name": "natural", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=235786-1&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DPrQbE/", 
+   "baseIcon": "album/a/0/9/000000000003990a/1/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1415141910.0, 
+   "url": "/people/walkaway/playlists/11801584/natural/", 
+   "tracks": [
+    {
+     "radioKey": "sr2861639", 
+     "baseIcon": "album/a/0/9/000000000003990a/1/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr2861639"
+     }, 
+     "artistUrl": "/artist/Bob_Marley__The_Wailers/", 
+     "duration": 184, 
+     "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a235786-1", 
+     "album": "Songs Of Freedom", 
+     "isClean": false, 
+     "albumUrl": "/artist/Bob_Marley__The_Wailers/album/Songs_Of_Freedom/", 
+     "shortUrl": "http://rd.io/x/QeHp7Dd0-AY/", 
+     "albumArtist": "Bob Marley & The Wailers", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7Dd0-AY/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a235786-1%3Aboxblur%2810%25%2C10%25%29%3Ba235786-1%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba235786-1%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 17, 
+     "albumArtistKey": "r393719", 
+     "key": "t2861639", 
+     "icon": "http://img00.cdn2-rdio.com/album/a/0/9/000000000003990a/1/square-200.jpg", 
+     "canSample": true, 
+     "name": "Soul Shake Down Party", 
+     "isExplicit": false, 
+     "artist": "Bob Marley & The Wailers", 
+     "url": "/artist/Bob_Marley__The_Wailers/album/Songs_Of_Freedom/track/Soul_Shake_Down_Party/", 
+     "icon400": "http://img02.cdn2-rdio.com/album/a/0/9/000000000003990a/1/square-400.jpg", 
+     "artistKey": "r393719", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a235786"
+    }
+   ], 
+   "key": "p11801584", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DPrQbE/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a235786-1%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

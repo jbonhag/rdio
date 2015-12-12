@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p15261034": {
+   "ownerKey": "s12495795", 
+   "name": "jere", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=256766-0&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DO3jys/", 
+   "baseIcon": "album/e/f/a/000000000003eafe/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1447576194.0, 
+   "url": "/people/walkaway/playlists/15261034/jere/", 
+   "tracks": [
+    {
+     "radioKey": "sr3148922", 
+     "baseIcon": "album/e/f/a/000000000003eafe/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr3148922"
+     }, 
+     "artistUrl": "/artist/Parliament/", 
+     "duration": 130, 
+     "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a256766-0", 
+     "album": "Chocolate City", 
+     "isClean": false, 
+     "albumUrl": "/artist/Parliament/album/Chocolate_City_1/", 
+     "shortUrl": "http://rd.io/x/QeHp7DdvXjs/", 
+     "albumArtist": "Parliament", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DdvXjs/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a256766-0%3Aboxblur%2810%25%2C10%25%29%3Ba256766-0%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba256766-0%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 7, 
+     "albumArtistKey": "r137227", 
+     "key": "t3148922", 
+     "icon": "http://img02.cdn2-rdio.com/album/e/f/a/000000000003eafe/square-200.jpg", 
+     "canSample": true, 
+     "name": "If It Don't Fit (Don't Force It)", 
+     "isExplicit": false, 
+     "artist": "Parliament", 
+     "url": "/artist/Parliament/album/Chocolate_City_1/track/If_It_Don%27t_Fit_(Don%27t_Force_It)/", 
+     "icon400": "http://img00.cdn2-rdio.com/album/e/f/a/000000000003eafe/square-400.jpg", 
+     "artistKey": "r137227", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a256766"
+    }
+   ], 
+   "key": "p15261034", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DO3jys/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a256766-0%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

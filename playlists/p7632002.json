@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p7632002": {
+   "ownerKey": "s12495795", 
+   "name": "mouth", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=185057-1&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DMrJsM/", 
+   "baseIcon": "album/1/e/2/000000000002d2e1/1/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1387862361.0, 
+   "url": "/people/walkaway/playlists/7632002/mouth/", 
+   "tracks": [
+    {
+     "radioKey": "sr2231549", 
+     "baseIcon": "album/1/e/2/000000000002d2e1/1/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr2231549"
+     }, 
+     "artistUrl": "/artist/Wilco/", 
+     "duration": 214, 
+     "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a185057-1", 
+     "album": "A.M.", 
+     "isClean": false, 
+     "albumUrl": "/artist/Wilco/album/Wilco_A.M./", 
+     "shortUrl": "http://rd.io/x/QeHp7Dd9Xrw/", 
+     "albumArtist": "Wilco", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7Dd9Xrw/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a185057-1%3Aboxblur%2810%25%2C10%25%29%3Ba185057-1%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba185057-1%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 10, 
+     "albumArtistKey": "r85827", 
+     "key": "t2231549", 
+     "icon": "http://img00.cdn2-rdio.com/album/1/e/2/000000000002d2e1/1/square-200.jpg", 
+     "canSample": true, 
+     "name": "Passenger Side", 
+     "isExplicit": false, 
+     "artist": "Wilco", 
+     "url": "/artist/Wilco/album/Wilco_A.M./track/Passenger_Side/", 
+     "icon400": "http://img02.cdn2-rdio.com/album/1/e/2/000000000002d2e1/1/square-400.jpg", 
+     "artistKey": "r85827", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a185057"
+    }
+   ], 
+   "key": "p7632002", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DMrJsM/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a185057-1%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

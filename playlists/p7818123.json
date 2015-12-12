@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p7818123": {
+   "ownerKey": "s12495795", 
+   "name": "hyperbolic", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=93376-0&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DMoGco/", 
+   "baseIcon": "album/0/c/c/0000000000016cc0/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1389393889.0, 
+   "url": "/people/walkaway/playlists/7818123/hyperbolic/", 
+   "tracks": [
+    {
+     "radioKey": "sr1154697", 
+     "baseIcon": "album/0/c/c/0000000000016cc0/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr1154697"
+     }, 
+     "artistUrl": "/artist/Brother_Ali/", 
+     "duration": 234, 
+     "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a93376-0", 
+     "album": "Truth Is", 
+     "isClean": false, 
+     "albumUrl": "/artist/Brother_Ali/album/Truth_Is/", 
+     "shortUrl": "http://rd.io/x/QeHp7DdOzMg/", 
+     "albumArtist": "Brother Ali", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DdOzMg/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a93376-0%3Aboxblur%2810%25%2C10%25%29%3Ba93376-0%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba93376-0%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 2, 
+     "albumArtistKey": "r85552", 
+     "key": "t1154697", 
+     "icon": "http://rdio1img-a.akamaihd.net/album/0/c/c/0000000000016cc0/square-200.jpg", 
+     "canSample": true, 
+     "name": "Truth Is (Dirty)", 
+     "isExplicit": false, 
+     "artist": "Brother Ali", 
+     "url": "/artist/Brother_Ali/album/Truth_Is/track/Truth_Is_(Dirty)/", 
+     "icon400": "http://rdio3img-a.akamaihd.net/album/0/c/c/0000000000016cc0/square-400.jpg", 
+     "artistKey": "r85552", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a93376"
+    }
+   ], 
+   "key": "p7818123", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DMoGco/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a93376-0%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

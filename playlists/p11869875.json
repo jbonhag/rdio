@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p11869875": {
+   "ownerKey": "s12495795", 
+   "name": "that", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=2529897-2&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DPqTPI/", 
+   "baseIcon": "album/9/6/a/0000000000269a69/2/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1415705475.0, 
+   "url": "/people/walkaway/playlists/11869875/that/", 
+   "tracks": [
+    {
+     "radioKey": "sr26958419", 
+     "baseIcon": "album/9/6/a/0000000000269a69/2/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr26958419"
+     }, 
+     "artistUrl": "/artist/Tha_Mexakinz/", 
+     "duration": 267, 
+     "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a2529897-2", 
+     "album": "Zig Zag", 
+     "isClean": false, 
+     "albumUrl": "/artist/Tha_Mexakinz/album/Zig_Zag/", 
+     "shortUrl": "http://rd.io/x/QeHp7DdeyRsX/", 
+     "albumArtist": "Tha Mexakinz", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DdeyRsX/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a2529897-2%3Aboxblur%2810%25%2C10%25%29%3Ba2529897-2%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba2529897-2%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 8, 
+     "albumArtistKey": "r2615048", 
+     "key": "t26958419", 
+     "icon": "http://img00.cdn2-rdio.com/album/9/6/a/0000000000269a69/2/square-200.jpg", 
+     "canSample": true, 
+     "name": "Da Method", 
+     "isExplicit": true, 
+     "artist": "Tha Mexakinz", 
+     "url": "/artist/Tha_Mexakinz/album/Zig_Zag/track/Da_Method/", 
+     "icon400": "http://img02.cdn2-rdio.com/album/9/6/a/0000000000269a69/2/square-400.jpg", 
+     "artistKey": "r2615048", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a2529897"
+    }
+   ], 
+   "key": "p11869875", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DPqTPI/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a2529897-2%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

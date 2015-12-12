@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p13643548": {
+   "ownerKey": "s12495795", 
+   "name": "equisite", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=4142286-10&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DOPfV0/", 
+   "baseIcon": "album/e/c/4/00000000003f34ce/10/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1433678555.0, 
+   "url": "/people/walkaway/playlists/13643548/equisite/", 
+   "tracks": [
+    {
+     "radioKey": "sr44270967", 
+     "baseIcon": "album/e/c/4/00000000003f34ce/10/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr44270967"
+     }, 
+     "artistUrl": "/artist/Sylvan_Esso/", 
+     "duration": 269, 
+     "dynamicIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a4142286-10", 
+     "album": "Sylvan Esso", 
+     "isClean": false, 
+     "albumUrl": "/artist/Sylvan_Esso/album/Sylvan_Esso/", 
+     "shortUrl": "http://rd.io/x/QeHp7Ddd8cQz/", 
+     "albumArtist": "Sylvan Esso", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7Ddd8cQz/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a4142286-10%3Aboxblur%2810%25%2C10%25%29%3Ba4142286-10%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba4142286-10%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 7, 
+     "albumArtistKey": "r3050432", 
+     "key": "t44270967", 
+     "icon": "http://rdio1img-a.akamaihd.net/album/e/c/4/00000000003f34ce/10/square-200.jpg", 
+     "canSample": true, 
+     "name": "Coffee", 
+     "isExplicit": false, 
+     "artist": "Sylvan Esso", 
+     "url": "/artist/Sylvan_Esso/album/Sylvan_Esso/track/Coffee/", 
+     "icon400": "http://rdio3img-a.akamaihd.net/album/e/c/4/00000000003f34ce/10/square-400.jpg", 
+     "artistKey": "r3050432", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a4142286"
+    }
+   ], 
+   "key": "p13643548", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DOPfV0/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a4142286-10%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

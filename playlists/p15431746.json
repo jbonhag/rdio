@@ -1,0 +1,23 @@
+{
+ "status": "ok", 
+ "result": {
+  "p15431746": {
+   "ownerKey": "s12495795", 
+   "name": "almost human", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?m=album/no-album-image-square.jpg&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DO0KgM/", 
+   "baseIcon": "album/no-album-image-square.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 0, 
+   "lastUpdated": 1449111483.0, 
+   "url": "/people/walkaway/playlists/15431746/almost_human/", 
+   "tracks": [], 
+   "key": "p15431746", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DO0KgM/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=album/no-album-image-square.jpg"
+  }
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p9403666": {
+   "ownerKey": "s12495795", 
+   "name": "un", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=4002018-1&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DPQL1M/", 
+   "baseIcon": "album/2/e/0/00000000003d10e2/1/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1400474015.0, 
+   "url": "/people/walkaway/playlists/9403666/un/", 
+   "tracks": [
+    {
+     "radioKey": "sr42728389", 
+     "baseIcon": "album/2/e/0/00000000003d10e2/1/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr42728389"
+     }, 
+     "artistUrl": "/artist/Snowmine/", 
+     "duration": 230, 
+     "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a4002018-1", 
+     "album": "Dialects", 
+     "isClean": false, 
+     "albumUrl": "/artist/Snowmine/album/Dialects/", 
+     "shortUrl": "http://rd.io/x/QeHp7Ddd2bqB/", 
+     "albumArtist": "Snowmine", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7Ddd2bqB/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a4002018-1%3Aboxblur%2810%25%2C10%25%29%3Ba4002018-1%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba4002018-1%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 5, 
+     "albumArtistKey": "r3530892", 
+     "key": "t42728389", 
+     "icon": "http://img02.cdn2-rdio.com/album/2/e/0/00000000003d10e2/1/square-200.jpg", 
+     "canSample": true, 
+     "name": "You Want Everything", 
+     "isExplicit": false, 
+     "artist": "Snowmine", 
+     "url": "/artist/Snowmine/album/Dialects/track/You_Want_Everything/", 
+     "icon400": "http://img00.cdn2-rdio.com/album/2/e/0/00000000003d10e2/1/square-400.jpg", 
+     "artistKey": "r3530892", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a4002018"
+    }
+   ], 
+   "key": "p9403666", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DPQL1M/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a4002018-1%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

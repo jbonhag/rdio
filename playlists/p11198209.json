@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p11198209": {
+   "ownerKey": "s12495795", 
+   "name": "predetermined behavior", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=193704-3&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DP1jUA/", 
+   "baseIcon": "album/8/a/4/000000000002f4a8/3/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1410641936.0, 
+   "url": "/people/walkaway/playlists/11198209/predetermined_behavior/", 
+   "tracks": [
+    {
+     "radioKey": "sr2336154", 
+     "baseIcon": "album/8/a/4/000000000002f4a8/3/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr2336154"
+     }, 
+     "artistUrl": "/artist/Gang_Starr/", 
+     "duration": 247, 
+     "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a193704-3", 
+     "album": "Moment Of Truth", 
+     "isClean": false, 
+     "albumUrl": "/artist/Gang_Starr/album/Moment_Of_Truth/", 
+     "shortUrl": "http://rd.io/x/QeHp7Dd899s/", 
+     "albumArtist": "Gang Starr", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7Dd899s/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a193704-3%3Aboxblur%2810%25%2C10%25%29%3Ba193704-3%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba193704-3%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 8, 
+     "albumArtistKey": "r71043", 
+     "key": "t2336154", 
+     "icon": "http://img02.cdn2-rdio.com/album/8/a/4/000000000002f4a8/3/square-200.jpg", 
+     "canSample": true, 
+     "name": "Moment Of Truth", 
+     "isExplicit": true, 
+     "artist": "Gang Starr", 
+     "url": "/artist/Gang_Starr/album/Moment_Of_Truth/track/Moment_Of_Truth/", 
+     "icon400": "http://img00.cdn2-rdio.com/album/8/a/4/000000000002f4a8/3/square-400.jpg", 
+     "artistKey": "r71043", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a193704"
+    }
+   ], 
+   "key": "p11198209", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DP1jUA/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a193704-3%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

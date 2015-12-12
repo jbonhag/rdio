@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p7317069": {
+   "ownerKey": "s12495795", 
+   "name": "kind of perfect", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=853417-0&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DMw9Aw/", 
+   "baseIcon": "album/9/a/5/00000000000d05a9/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1385644810.0, 
+   "url": "/people/walkaway/playlists/7317069/kind_of_perfect/", 
+   "tracks": [
+    {
+     "radioKey": "sr10016498", 
+     "baseIcon": "album/9/a/5/00000000000d05a9/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr10016498"
+     }, 
+     "artistUrl": "/artist/Prefuse_73/", 
+     "duration": 234, 
+     "dynamicIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a853417-0", 
+     "album": "Vocal Studies and Uprock Narratives", 
+     "isClean": false, 
+     "albumUrl": "/artist/Prefuse_73/album/Vocal_Studies_and_Uprock_Narratives/", 
+     "shortUrl": "http://rd.io/x/QeHp7DfHhLM/", 
+     "albumArtist": "Prefuse 73", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DfHhLM/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a853417-0%3Aboxblur%2810%25%2C10%25%29%3Ba853417-0%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba853417-0%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 16, 
+     "albumArtistKey": "r170684", 
+     "key": "t10016498", 
+     "icon": "http://img02.cdn2-rdio.com/album/9/a/5/00000000000d05a9/square-200.jpg", 
+     "canSample": true, 
+     "name": "7th Message", 
+     "isExplicit": false, 
+     "artist": "Prefuse 73", 
+     "url": "/artist/Prefuse_73/album/Vocal_Studies_and_Uprock_Narratives/track/7th_Message/", 
+     "icon400": "http://img00.cdn2-rdio.com/album/9/a/5/00000000000d05a9/square-400.jpg", 
+     "artistKey": "r170684", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a853417"
+    }
+   ], 
+   "key": "p7317069", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DMw9Aw/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a853417-0%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

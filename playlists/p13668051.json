@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p13668051": {
+   "ownerKey": "s12495795", 
+   "name": "if you can read this", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=3548982-2&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DOP3JI/", 
+   "baseIcon": "album/6/3/7/0000000000362736/2/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1433982778.0, 
+   "url": "/people/walkaway/playlists/13668051/if_you_can_read_this/", 
+   "tracks": [
+    {
+     "radioKey": "sr37829676", 
+     "baseIcon": "album/6/3/7/0000000000362736/2/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr37829676"
+     }, 
+     "artistUrl": "/artist/Jeff_Mangum/", 
+     "duration": 313, 
+     "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a3548982-2", 
+     "album": "Live at Jittery Joe's", 
+     "isClean": false, 
+     "albumUrl": "/artist/Jeff_Mangum/album/Live_at_Jittery_Joe%27s_1/", 
+     "shortUrl": "http://rd.io/x/QeHp7DddE31o/", 
+     "albumArtist": "Jeff Mangum", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DddE31o/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a3548982-2%3Aboxblur%2810%25%2C10%25%29%3Ba3548982-2%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba3548982-2%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 8, 
+     "albumArtistKey": "r665475", 
+     "key": "t37829676", 
+     "icon": "http://img00.cdn2-rdio.com/album/6/3/7/0000000000362736/2/square-200.jpg", 
+     "canSample": true, 
+     "name": "Engine", 
+     "isExplicit": false, 
+     "artist": "Jeff Mangum", 
+     "url": "/artist/Jeff_Mangum/album/Live_at_Jittery_Joe%27s_1/track/Engine/", 
+     "icon400": "http://img02.cdn2-rdio.com/album/6/3/7/0000000000362736/2/square-400.jpg", 
+     "artistKey": "r665475", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a3548982"
+    }
+   ], 
+   "key": "p13668051", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DOP3JI/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a3548982-2%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p15363013": {
+   "ownerKey": "s12495795", 
+   "name": "connections", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=239851-0&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DO1OYQ/", 
+   "baseIcon": "album/b/e/8/000000000003a8eb/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1448459728.0, 
+   "url": "/people/walkaway/playlists/15363013/connections/", 
+   "tracks": [
+    {
+     "radioKey": "sr2917140", 
+     "baseIcon": "album/b/e/8/000000000003a8eb/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr2917140"
+     }, 
+     "artistUrl": "/artist/Hall__Oates/", 
+     "duration": 307, 
+     "dynamicIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a239851-0", 
+     "album": "The Essential Daryl Hall & John Oates", 
+     "isClean": false, 
+     "albumUrl": "/artist/Hall__Oates/album/The_Essential_Daryl_Hall__John_Oates/", 
+     "shortUrl": "http://rd.io/x/QeHp7Ddz0VU/", 
+     "albumArtist": "Hall & Oates", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7Ddz0VU/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a239851-0%3Aboxblur%2810%25%2C10%25%29%3Ba239851-0%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba239851-0%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 18, 
+     "albumArtistKey": "r7584", 
+     "key": "t2917140", 
+     "icon": "http://img02.cdn2-rdio.com/album/b/e/8/000000000003a8eb/square-200.jpg", 
+     "canSample": true, 
+     "name": "I Can't Go for That (No Can Do) (Remastered)", 
+     "isExplicit": false, 
+     "artist": "Hall & Oates", 
+     "url": "/artist/Hall__Oates/album/The_Essential_Daryl_Hall__John_Oates/track/I_Can%27t_Go_for_That_(No_Can_Do)_(Remastered)/", 
+     "icon400": "http://img00.cdn2-rdio.com/album/b/e/8/000000000003a8eb/square-400.jpg", 
+     "artistKey": "r7584", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a239851"
+    }
+   ], 
+   "key": "p15363013", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DO1OYQ/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a239851-0%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

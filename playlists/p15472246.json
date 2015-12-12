@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p15472246": {
+   "ownerKey": "s12495795", 
+   "name": "bye", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=250630-0&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DOzRDc/", 
+   "baseIcon": "album/6/0/3/000000000003d306/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1449492749.0, 
+   "url": "/people/walkaway/playlists/15472246/bye/", 
+   "tracks": [
+    {
+     "radioKey": "sr3065893", 
+     "baseIcon": "album/6/0/3/000000000003d306/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr3065893"
+     }, 
+     "artistUrl": "/artist/Weezer/", 
+     "duration": 256, 
+     "dynamicIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a250630-0", 
+     "album": "Pinkerton", 
+     "isClean": false, 
+     "albumUrl": "/artist/Weezer/album/Pinkerton/", 
+     "shortUrl": "http://rd.io/x/QeHp7DdxmmQ/", 
+     "albumArtist": "Weezer", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DdxmmQ/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a250630-0%3Aboxblur%2810%25%2C10%25%29%3Ba250630-0%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba250630-0%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 6, 
+     "albumArtistKey": "r139688", 
+     "key": "t3065893", 
+     "icon": "http://rdio1img-a.akamaihd.net/album/6/0/3/000000000003d306/square-200.jpg", 
+     "canSample": true, 
+     "name": "The Good Life", 
+     "isExplicit": false, 
+     "artist": "Weezer", 
+     "url": "/artist/Weezer/album/Pinkerton/track/The_Good_Life/", 
+     "icon400": "http://rdio3img-a.akamaihd.net/album/6/0/3/000000000003d306/square-400.jpg", 
+     "artistKey": "r139688", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a250630"
+    }
+   ], 
+   "key": "p15472246", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DOzRDc/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a250630-0%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}
