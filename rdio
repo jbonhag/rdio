@@ -3,31 +3,31 @@
 URL=http://localhost:5000
 
 play() {
-  curl $URL --data "command=play&key=$1&initialPosition=$2"
+  curl $URL/play --data "key=$1&initialPosition=$2"
 }
 
 pause() {
-  curl $URL --data "command=pause"
+  curl $URL/pause
 }
 
 stop() {
-  curl $URL --data "command=stop"
+  curl $URL/stop
 }
 
 next() {
-  curl $URL --data "command=next"
+  curl $URL/next
 }
 
 previous() {
-  curl $URL --data "command=previous"
+  curl $URL/previous
 }
 
 seek() {
-  curl $URL --data "command=seek&position=$1"
+  curl $URL/seek --data "position=$1"
 }
 
 setShuffle() {
-  curl $URL --data "command=setShuffle&shuffle=$1"
+  curl $URL/setShuffle --data "shuffle=$1"
 }
 
 setRepeat() {
@@ -41,51 +41,51 @@ setRepeat() {
     *) echo "Usage: $0 setRepeat no-repeat|track-repeat|whole-source-repeat"
       exit 2
   esac
-  curl $URL --data "command=setRepeat&mode=$mode"
+  curl $URL/setRepeat --data "mode=$mode"
 }
 
 queue() {
-  curl $URL --data "command=queue&key=$1"
+  curl $URL/queue --data "key=$1"
 }
 
 setVolume() {
-  curl $URL --data "command=setVolume&volume=$1"
+  curl $URL/setVolume --data "volume=$1"
 }
 
 setMute() {
-  curl $URL --data "command=setMute&mute=$1"
+  curl $URL/setMute --data "mute=$1"
 }
 
 playQueuedTrack() {
-  curl $URL --data "command=playQueuedTrack&position=$1&offset=$2"
+  curl $URL/playQueuedTrack --data "position=$1&offset=$2"
 }
 
 moveQueuedSource() {
-  curl $URL --data "command=moveQueuedSource&from=$1&to=$2"
+  curl $URL/moveQueuedSource --data "from=$1&to=$2"
 }
 
 clearQueue() {
-  curl $URL --data "command=clearQueue"
+  curl $URL/clearQueue
 }
 
 setCurrentPosition() {
-  curl $URL --data "command=setCurrentPosition&sourceIndex=$1"
+  curl $URL/setCurrentPosition --data "sourceIndex=$1"
 }
 
 removeFromQueue() {
-  curl $URL --data "command=removeFromQueue&sourceIndex=$1"
+  curl $URL/removeFromQueue --data "sourceIndex=$1"
 }
 
 sendState() {
-  curl $URL --data "command=sendState"
+  curl $URL/sendState
 }
 
 startFrequencyAnalyzer() {
-  curl $URL --data "command=startFrequencyAnalyzer&period=$1&frequencies=$2"
+  curl $URL/startFrequencyAnalyzer --data "period=$1&frequencies=$2"
 }
 
 stopFrequencyAnalyzer() {
-  curl $URL --data "command=stopFrequencyAnalyzer"
+  curl $URL/stopFrequencyAnalyzer
 }
 
 search() {
