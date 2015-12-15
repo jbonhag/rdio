@@ -1,6 +1,6 @@
 #!/bin/bash
 
-URL=http://0.0.0.0:32768
+URL=http://0.0.0.0:5000
 
 play() {
   curl $URL --data "command=play&key=$1&initialPosition=$2"
@@ -96,6 +96,10 @@ first() {
   search "$1" | jq .result.results[0]
 }
 
+playFirst() {
+  play `first "$1" | jq .key | sed 's/"//g'`
+}
+
 case $1 in
   play) play $2
     ;;
@@ -139,6 +143,8 @@ case $1 in
     ;;
   first) first "$2"
     ;;
-  *) echo "Usage: $0 play|pause|stop|next|previous|seek|setShuffle|setRepeat|queue|setVolume|setMute|playQueuedTrack|moveQueuedSource|clearQueue|setCurrentPosition|removeFromQueue|sendState|startFrequencyAnalyzer|stopFrequencyAnalyzer|search|first"
+  playFirst) playFirst "$2"
+    ;;
+  *) echo "Usage: $0 play|pause|stop|next|previous|seek|setShuffle|setRepeat|queue|setVolume|setMute|playQueuedTrack|moveQueuedSource|clearQueue|setCurrentPosition|removeFromQueue|sendState|startFrequencyAnalyzer|stopFrequencyAnalyzer|search|first|playFirst"
     exit 1
 esac
