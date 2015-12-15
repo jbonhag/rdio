@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p7820361": {
+   "ownerKey": "s12495795", 
+   "name": "one", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=160521-0&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DMoBgg/", 
+   "baseIcon": "album/9/0/3/0000000000027309/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1389407099.0, 
+   "url": "/people/walkaway/playlists/7820361/one/", 
+   "tracks": [
+    {
+     "radioKey": "sr1930528", 
+     "baseIcon": "album/9/0/3/0000000000027309/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr1930528"
+     }, 
+     "artistUrl": "/artist/The_Lootpack/", 
+     "duration": 523, 
+     "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a160521-0", 
+     "album": "Soundpieces: Da Antidote", 
+     "isClean": false, 
+     "albumUrl": "/artist/The_Lootpack/album/Soundpieces_Da_Antidote/", 
+     "shortUrl": "http://rd.io/x/QeHp7DdCJ2E/", 
+     "albumArtist": "The Lootpack", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DdCJ2E/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a160521-0%3Aboxblur%2810%25%2C10%25%29%3Ba160521-0%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba160521-0%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 23, 
+     "albumArtistKey": "r62399", 
+     "key": "t1930528", 
+     "icon": "http://rdio3img-a.akamaihd.net/album/9/0/3/0000000000027309/square-200.jpg", 
+     "canSample": true, 
+     "name": "Episodes", 
+     "isExplicit": true, 
+     "artist": "The Lootpack", 
+     "url": "/artist/The_Lootpack/album/Soundpieces_Da_Antidote/track/Episodes/", 
+     "icon400": "http://rdio1img-a.akamaihd.net/album/9/0/3/0000000000027309/square-400.jpg", 
+     "artistKey": "r62399", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a160521"
+    }
+   ], 
+   "key": "p7820361", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DMoBgg/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a160521-0%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

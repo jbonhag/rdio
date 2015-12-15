@@ -1,0 +1,59 @@
+{
+ "status": "ok", 
+ "result": {
+  "p9239223": {
+   "ownerKey": "s12495795", 
+   "name": "whoa", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=1400839-0&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DPTqPY/", 
+   "baseIcon": "album/7/0/0/0000000000156007/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1399426746.0, 
+   "url": "/people/walkaway/playlists/9239223/whoa/", 
+   "tracks": [
+    {
+     "key": "t15759570", 
+     "baseIcon": "album/7/0/0/0000000000156007/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr15759570"
+     }, 
+     "artistUrl": "/artist/Timmy_Thomas/", 
+     "duration": 280, 
+     "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a1400839-0", 
+     "album": "Henry Stone's Hidden Treasures", 
+     "isClean": false, 
+     "albumUrl": "/artist/Various_Artists/album/Henry_Stone%27s_Hidden_Treasures_1/", 
+     "shortUrl": "http://rd.io/x/QeHp7DevKpM/", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DevKpM/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a1400839-0%3Aboxblur%2810%25%2C10%25%29%3Ba1400839-0%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba1400839-0%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 8, 
+     "radioKey": "sr15759570", 
+     "icon": "http://img00.cdn2-rdio.com/album/7/0/0/0000000000156007/square-200.jpg", 
+     "canSample": true, 
+     "name": "Why Can't We Live Together", 
+     "isExplicit": false, 
+     "artist": "Timmy Thomas", 
+     "url": "/artist/Timmy_Thomas/album/Henry_Stone%27s_Hidden_Treasures_1/track/Why_Can%27t_We_Live_Together/", 
+     "icon400": "http://img02.cdn2-rdio.com/album/7/0/0/0000000000156007/square-400.jpg", 
+     "artistKey": "r18609", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a1400839"
+    }
+   ], 
+   "key": "p9239223", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DPTqPY/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a1400839-0%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-URL=http://localhost:5000
+URL=http://$(docker-machine ip default):5000
 
 play() {
   curl $URL --data "command=play&key=$1&initialPosition=$2"
@@ -31,7 +31,17 @@ setShuffle() {
 }
 
 setRepeat() {
-  curl $URL --data "command=setRepeat&repeat=$1"
+  case $1 in
+    0|"no-repeat") mode=0
+      ;;
+    1|"track-repeat") mode=1
+      ;;
+    2|"whole-source-repeat") mode=2
+      ;;
+    *) echo "Usage: $0 setRepeat no-repeat|track-repeat|whole-source-repeat"
+      exit 2
+  esac
+  curl $URL --data "command=setRepeat&mode=$mode"
 }
 
 queue() {

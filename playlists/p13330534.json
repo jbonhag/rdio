@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p13330534": {
+   "ownerKey": "s12495795", 
+   "name": "peace", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=2116587-1&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DOUOic/", 
+   "baseIcon": "album/b/e/b/0000000000204beb/1/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1430223377.0, 
+   "url": "/people/walkaway/playlists/13330534/peace/", 
+   "tracks": [
+    {
+     "radioKey": "sr22742648", 
+     "baseIcon": "album/b/e/b/0000000000204beb/1/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr22742648"
+     }, 
+     "artistUrl": "/artist/Guilty_Simpson%2C_Apollo_Brown/", 
+     "duration": 195, 
+     "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a2116587-1", 
+     "album": "Dice Game", 
+     "isClean": false, 
+     "albumUrl": "/artist/Guilty_Simpson%2C_Apollo_Brown/album/Dice_Game/", 
+     "shortUrl": "http://rd.io/x/QeHp7DdeCUc8/", 
+     "albumArtist": "Guilty Simpson, Apollo Brown", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DdeCUc8/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a2116587-1%3Aboxblur%2810%25%2C10%25%29%3Ba2116587-1%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba2116587-1%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 11, 
+     "albumArtistKey": "r2351527", 
+     "key": "t22742648", 
+     "icon": "http://img02.cdn2-rdio.com/album/b/e/b/0000000000204beb/1/square-200.jpg", 
+     "canSample": true, 
+     "name": "Neverending Story", 
+     "isExplicit": true, 
+     "artist": "Guilty Simpson, Apollo Brown", 
+     "url": "/artist/Guilty_Simpson%2C_Apollo_Brown/album/Dice_Game/track/Neverending_Story/", 
+     "icon400": "http://img00.cdn2-rdio.com/album/b/e/b/0000000000204beb/1/square-400.jpg", 
+     "artistKey": "r2351527", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a2116587"
+    }
+   ], 
+   "key": "p13330534", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DOUOic/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a2116587-1%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

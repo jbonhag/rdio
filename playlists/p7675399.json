@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p7675399": {
+   "ownerKey": "s12495795", 
+   "name": "red", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=225989-0&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DMqTEY/", 
+   "baseIcon": "album/5/c/2/00000000000372c5/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1388214653.0, 
+   "url": "/people/walkaway/playlists/7675399/red/", 
+   "tracks": [
+    {
+     "radioKey": "sr2736595", 
+     "baseIcon": "album/5/c/2/00000000000372c5/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr2736595"
+     }, 
+     "artistUrl": "/artist/Morphine/", 
+     "duration": 326, 
+     "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a225989-0", 
+     "album": "The Night", 
+     "isClean": false, 
+     "albumUrl": "/artist/Morphine/album/The_Night/", 
+     "shortUrl": "http://rd.io/x/QeHp7Dd2k5I/", 
+     "albumArtist": "Morphine", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7Dd2k5I/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a225989-0%3Aboxblur%2810%25%2C10%25%29%3Ba225989-0%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba225989-0%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 5, 
+     "albumArtistKey": "r85632", 
+     "key": "t2736595", 
+     "icon": "http://img02.cdn2-rdio.com/album/5/c/2/00000000000372c5/square-200.jpg", 
+     "canSample": true, 
+     "name": "Like A Mirror", 
+     "isExplicit": false, 
+     "artist": "Morphine", 
+     "url": "/artist/Morphine/album/The_Night/track/Like_A_Mirror/", 
+     "icon400": "http://img00.cdn2-rdio.com/album/5/c/2/00000000000372c5/square-400.jpg", 
+     "artistKey": "r85632", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a225989"
+    }
+   ], 
+   "key": "p7675399", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DMqTEY/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a225989-0%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

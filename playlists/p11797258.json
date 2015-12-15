@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p11797258": {
+   "ownerKey": "s12495795", 
+   "name": "rumble", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=239944-0&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DPrUUs/", 
+   "baseIcon": "album/8/4/9/000000000003a948/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1415095490.0, 
+   "url": "/people/walkaway/playlists/11797258/rumble/", 
+   "tracks": [
+    {
+     "radioKey": "sr2917417", 
+     "baseIcon": "album/8/4/9/000000000003a948/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr2917417"
+     }, 
+     "artistUrl": "/artist/Johnny_Mathis/", 
+     "duration": 213, 
+     "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a239944-0", 
+     "album": "The Essential Johnny Mathis", 
+     "isClean": false, 
+     "albumUrl": "/artist/Johnny_Mathis/album/The_Essential_Johnny_Mathis/", 
+     "shortUrl": "http://rd.io/x/QeHp7Ddz1mg/", 
+     "albumArtist": "Johnny Mathis", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7Ddz1mg/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a239944-0%3Aboxblur%2810%25%2C10%25%29%3Ba239944-0%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba239944-0%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 13, 
+     "albumArtistKey": "r110930", 
+     "key": "t2917417", 
+     "icon": "http://img00.cdn2-rdio.com/album/8/4/9/000000000003a948/square-200.jpg", 
+     "canSample": true, 
+     "name": "Misty", 
+     "isExplicit": false, 
+     "artist": "Johnny Mathis", 
+     "url": "/artist/Johnny_Mathis/album/The_Essential_Johnny_Mathis/track/Misty/", 
+     "icon400": "http://img02.cdn2-rdio.com/album/8/4/9/000000000003a948/square-400.jpg", 
+     "artistKey": "r110930", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a239944"
+    }
+   ], 
+   "key": "p11797258", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DPrUUs/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a239944-0%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

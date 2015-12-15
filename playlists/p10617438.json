@@ -1,0 +1,59 @@
+{
+ "status": "ok", 
+ "result": {
+  "p10617438": {
+   "ownerKey": "s12495795", 
+   "name": "Jere", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=108945-5&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DP9UB8/", 
+   "baseIcon": "album/1/9/9/000000000001a991/5/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1407569063.0, 
+   "url": "/people/walkaway/playlists/10617438/Jere/", 
+   "tracks": [
+    {
+     "key": "t1321314", 
+     "baseIcon": "album/1/9/9/000000000001a991/5/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr1321314"
+     }, 
+     "artistUrl": "/artist/The_Charmels/", 
+     "duration": 157, 
+     "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a108945-5", 
+     "album": "Stax-Volt: The Complete Singles 1959-1968", 
+     "isClean": false, 
+     "albumUrl": "/artist/Various_Artists/album/Stax-Volt_The_Complete_Singles_1959-1968/", 
+     "shortUrl": "http://rd.io/x/QeHp7DdLeyM/", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DdLeyM/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a108945-5%3Aboxblur%2810%25%2C10%25%29%3Ba108945-5%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba108945-5%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 219, 
+     "radioKey": "sr1321314", 
+     "icon": "http://img02.cdn2-rdio.com/album/1/9/9/000000000001a991/5/square-200.jpg", 
+     "canSample": true, 
+     "name": "As Long As I've Got You", 
+     "isExplicit": false, 
+     "artist": "The Charmels", 
+     "url": "/artist/The_Charmels/album/Stax-Volt_The_Complete_Singles_1959-1968/track/As_Long_As_I%27ve_Got_You/", 
+     "icon400": "http://img00.cdn2-rdio.com/album/1/9/9/000000000001a991/5/square-400.jpg", 
+     "artistKey": "r91832", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a108945"
+    }
+   ], 
+   "key": "p10617438", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DP9UB8/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a108945-5%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

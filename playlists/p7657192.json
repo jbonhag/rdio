@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p7657192": {
+   "ownerKey": "s12495795", 
+   "name": "travelling", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=98790-1&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DMrhKk/", 
+   "baseIcon": "album/6/e/1/00000000000181e6/1/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1388060467.0, 
+   "url": "/people/walkaway/playlists/7657192/travelling/", 
+   "tracks": [
+    {
+     "radioKey": "sr1209841", 
+     "baseIcon": "album/6/e/1/00000000000181e6/1/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr1209841"
+     }, 
+     "artistUrl": "/artist/Donny_Hathaway/", 
+     "duration": 231, 
+     "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a98790-1", 
+     "album": "Donny Hathaway", 
+     "isClean": false, 
+     "albumUrl": "/artist/Donny_Hathaway/album/Donny_Hathaway/", 
+     "shortUrl": "http://rd.io/x/QeHp7DdNJ7A/", 
+     "albumArtist": "Donny Hathaway", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DdNJ7A/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a98790-1%3Aboxblur%2810%25%2C10%25%29%3Ba98790-1%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba98790-1%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 11, 
+     "albumArtistKey": "r88166", 
+     "key": "t1209841", 
+     "icon": "http://rdio1img-a.akamaihd.net/album/6/e/1/00000000000181e6/1/square-200.jpg", 
+     "canSample": true, 
+     "name": "This Christmas", 
+     "isExplicit": false, 
+     "artist": "Donny Hathaway", 
+     "url": "/artist/Donny_Hathaway/album/Donny_Hathaway/track/This_Christmas/", 
+     "icon400": "http://rdio3img-a.akamaihd.net/album/6/e/1/00000000000181e6/1/square-400.jpg", 
+     "artistKey": "r88166", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a98790"
+    }
+   ], 
+   "key": "p7657192", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DMrhKk/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a98790-1%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p12007681": {
+   "ownerKey": "s12495795", 
+   "name": "breath", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=1813050-2&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DPoa0A/", 
+   "baseIcon": "album/a/3/a/00000000001baa3a/2/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1416913555.0, 
+   "url": "/people/walkaway/playlists/12007681/breath/", 
+   "tracks": [
+    {
+     "radioKey": "sr19636083", 
+     "baseIcon": "album/a/3/a/00000000001baa3a/2/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr19636083"
+     }, 
+     "artistUrl": "/artist/Aimee_Mann/", 
+     "duration": 189, 
+     "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a1813050-2", 
+     "album": "Bachelor No. 2 (Or, The Last Remains of the Dodo)", 
+     "isClean": false, 
+     "albumUrl": "/artist/Aimee_Mann/album/Bachelor_No._2_(Or%2C_The_Last_Remains_of_the_Dodo)/", 
+     "shortUrl": "http://rd.io/x/QeHp7Ddeed43/", 
+     "albumArtist": "Aimee Mann", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7Ddeed43/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a1813050-2%3Aboxblur%2810%25%2C10%25%29%3Ba1813050-2%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba1813050-2%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 2, 
+     "albumArtistKey": "r87324", 
+     "key": "t19636083", 
+     "icon": "http://rdio3img-a.akamaihd.net/album/a/3/a/00000000001baa3a/2/square-200.jpg", 
+     "canSample": true, 
+     "name": "Nothing Is Good Enough", 
+     "isExplicit": false, 
+     "artist": "Aimee Mann", 
+     "url": "/artist/Aimee_Mann/album/Bachelor_No._2_(Or%2C_The_Last_Remains_of_the_Dodo)/track/Nothing_Is_Good_Enough/", 
+     "icon400": "http://rdio1img-a.akamaihd.net/album/a/3/a/00000000001baa3a/2/square-400.jpg", 
+     "artistKey": "r87324", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a1813050"
+    }
+   ], 
+   "key": "p12007681", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DPoa0A/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a1813050-2%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

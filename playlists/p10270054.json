@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p10270054": {
+   "ownerKey": "s12495795", 
+   "name": "large", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=195369-0&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DPD5yc/", 
+   "baseIcon": "album/9/2/b/000000000002fb29/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1405818803.0, 
+   "url": "/people/walkaway/playlists/10270054/large/", 
+   "tracks": [
+    {
+     "radioKey": "sr2352505", 
+     "baseIcon": "album/9/2/b/000000000002fb29/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr2352505"
+     }, 
+     "artistUrl": "/artist/D%27Angelo/", 
+     "duration": 278, 
+     "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a195369-0", 
+     "album": "Voodoo", 
+     "isClean": false, 
+     "albumUrl": "/artist/D%27Angelo/album/Voodoo/", 
+     "shortUrl": "http://rd.io/x/QeHp7Dd8tzg/", 
+     "albumArtist": "D'Angelo", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7Dd8tzg/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a195369-0%3Aboxblur%2810%25%2C10%25%29%3Ba195369-0%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba195369-0%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 6, 
+     "albumArtistKey": "r60710", 
+     "key": "t2352505", 
+     "icon": "http://img00.cdn2-rdio.com/album/9/2/b/000000000002fb29/square-200.jpg", 
+     "canSample": true, 
+     "name": "Chicken Grease", 
+     "isExplicit": false, 
+     "artist": "D'Angelo", 
+     "url": "/artist/D%27Angelo/album/Voodoo/track/Chicken_Grease/", 
+     "icon400": "http://img02.cdn2-rdio.com/album/9/2/b/000000000002fb29/square-400.jpg", 
+     "artistKey": "r60710", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a195369"
+    }
+   ], 
+   "key": "p10270054", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DPD5yc/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a195369-0%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

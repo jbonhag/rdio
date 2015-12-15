@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p8976009": {
+   "ownerKey": "s12495795", 
+   "name": "old", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=653821-0&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DPXpMg/", 
+   "baseIcon": "album/d/f/9/000000000009f9fd/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1397816544.0, 
+   "url": "/people/walkaway/playlists/8976009/old/", 
+   "tracks": [
+    {
+     "radioKey": "sr7798587", 
+     "baseIcon": "album/d/f/9/000000000009f9fd/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr7798587"
+     }, 
+     "artistUrl": "/artist/Deerhoof/", 
+     "duration": 78, 
+     "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a653821-0", 
+     "album": "Reveille", 
+     "isClean": false, 
+     "albumUrl": "/artist/Deerhoof/album/Reveille/", 
+     "shortUrl": "http://rd.io/x/QeHp7DcprXo/", 
+     "albumArtist": "Deerhoof", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DcprXo/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a653821-0%3Aboxblur%2810%25%2C10%25%29%3Ba653821-0%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba653821-0%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 10, 
+     "albumArtistKey": "r125412", 
+     "key": "t7798587", 
+     "icon": "http://rdio1img-a.akamaihd.net/album/d/f/9/000000000009f9fd/square-200.jpg", 
+     "canSample": true, 
+     "name": "Holy Night Fever", 
+     "isExplicit": false, 
+     "artist": "Deerhoof", 
+     "url": "/artist/Deerhoof/album/Reveille/track/Holy_Night_Fever/", 
+     "icon400": "http://rdio3img-a.akamaihd.net/album/d/f/9/000000000009f9fd/square-400.jpg", 
+     "artistKey": "r125412", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a653821"
+    }
+   ], 
+   "key": "p8976009", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DPXpMg/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a653821-0%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

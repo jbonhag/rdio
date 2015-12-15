@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p7840226": {
+   "ownerKey": "s12495795", 
+   "name": "trap", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=1737635-3&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DMo86M/", 
+   "baseIcon": "album/3/a/3/00000000001a83a3/3/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1389568787.0, 
+   "url": "/people/walkaway/playlists/7840226/trap/", 
+   "tracks": [
+    {
+     "radioKey": "sr18906843", 
+     "baseIcon": "album/3/a/3/00000000001a83a3/3/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr18906843"
+     }, 
+     "artistUrl": "/artist/T.I./", 
+     "duration": 217, 
+     "dynamicIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a1737635-3", 
+     "album": "Go Get It", 
+     "isClean": false, 
+     "albumUrl": "/artist/T.I./album/Go_Get_It_1/", 
+     "shortUrl": "http://rd.io/x/QeHp7Ddecj-f/", 
+     "albumArtist": "T.I.", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7Ddecj-f/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a1737635-3%3Aboxblur%2810%25%2C10%25%29%3Ba1737635-3%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba1737635-3%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 1, 
+     "albumArtistKey": "r24850", 
+     "key": "t18906843", 
+     "icon": "http://img00.cdn2-rdio.com/album/3/a/3/00000000001a83a3/3/square-200.jpg", 
+     "canSample": true, 
+     "name": "Go Get It", 
+     "isExplicit": true, 
+     "artist": "T.I.", 
+     "url": "/artist/T.I./album/Go_Get_It_1/track/Go_Get_It/", 
+     "icon400": "http://img02.cdn2-rdio.com/album/3/a/3/00000000001a83a3/3/square-400.jpg", 
+     "artistKey": "r24850", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a1737635"
+    }
+   ], 
+   "key": "p7840226", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DMo86M/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a1737635-3%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

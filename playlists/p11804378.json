@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p11804378": {
+   "ownerKey": "s12495795", 
+   "name": "what", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=239700-7&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DPrTJs/", 
+   "baseIcon": "album/4/5/8/000000000003a854/7/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1415158359.0, 
+   "url": "/people/walkaway/playlists/11804378/what/", 
+   "tracks": [
+    {
+     "radioKey": "sr2913659", 
+     "baseIcon": "album/4/5/8/000000000003a854/7/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr2913659"
+     }, 
+     "artistUrl": "/artist/Nas/", 
+     "duration": 325, 
+     "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a239700-7", 
+     "album": "Illmatic", 
+     "isClean": false, 
+     "albumUrl": "/artist/Nas/album/Illmatic/", 
+     "shortUrl": "http://rd.io/x/QeHp7DdzJzo/", 
+     "albumArtist": "Nas", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DdzJzo/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a239700-7%3Aboxblur%2810%25%2C10%25%29%3Ba239700-7%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba239700-7%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 7, 
+     "albumArtistKey": "r19439", 
+     "key": "t2913659", 
+     "icon": "http://img02.cdn2-rdio.com/album/4/5/8/000000000003a854/7/square-200.jpg", 
+     "canSample": true, 
+     "name": "One Love", 
+     "isExplicit": true, 
+     "artist": "Nas", 
+     "url": "/artist/Nas/album/Illmatic/track/One_Love/", 
+     "icon400": "http://img00.cdn2-rdio.com/album/4/5/8/000000000003a854/7/square-400.jpg", 
+     "artistKey": "r19439", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a239700"
+    }
+   ], 
+   "key": "p11804378", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DPrTJs/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a239700-7%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

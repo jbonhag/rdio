@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p7238560": {
+   "ownerKey": "s12495795", 
+   "name": "snare", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=2776372-2&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DMxIeE/", 
+   "baseIcon": "album/4/3/d/00000000002a5d34/2/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1385090224.0, 
+   "url": "/people/walkaway/playlists/7238560/snare/", 
+   "tracks": [
+    {
+     "radioKey": "sr29347140", 
+     "baseIcon": "album/4/3/d/00000000002a5d34/2/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr29347140"
+     }, 
+     "artistUrl": "/artist/Ultra%C3%ADsta/", 
+     "duration": 187, 
+     "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a2776372-2", 
+     "album": "Ultra\u00edsta", 
+     "isClean": false, 
+     "albumUrl": "/artist/Ultra%C3%ADsta/album/Ultra%C3%ADsta/", 
+     "shortUrl": "http://rd.io/x/QeHp7Dde7YwA/", 
+     "albumArtist": "Ultra\u00edsta", 
+     "canStream": false, 
+     "embedUrl": "https://rd.io/e/QeHp7Dde7YwA/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a2776372-2%3Aboxblur%2810%25%2C10%25%29%3Ba2776372-2%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba2776372-2%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 8, 
+     "albumArtistKey": "r2844424", 
+     "key": "t29347140", 
+     "icon": "http://rdio1img-a.akamaihd.net/album/4/3/d/00000000002a5d34/2/square-200.jpg", 
+     "canSample": false, 
+     "name": "Party Line", 
+     "isExplicit": false, 
+     "artist": "Ultra\u00edsta", 
+     "url": "/artist/Ultra%C3%ADsta/album/Ultra%C3%ADsta/track/Party_Line/", 
+     "icon400": "http://rdio3img-a.akamaihd.net/album/4/3/d/00000000002a5d34/2/square-400.jpg", 
+     "artistKey": "r2844424", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a2776372"
+    }
+   ], 
+   "key": "p7238560", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DMxIeE/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a2776372-2%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

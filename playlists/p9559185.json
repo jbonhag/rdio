@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p9559185": {
+   "ownerKey": "s12495795", 
+   "name": "charge", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=1366408-2&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DPOjtA/", 
+   "baseIcon": "album/8/8/9/000000000014d988/2/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1401441450.0, 
+   "url": "/people/walkaway/playlists/9559185/charge/", 
+   "tracks": [
+    {
+     "radioKey": "sr15452387", 
+     "baseIcon": "album/8/8/9/000000000014d988/2/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr15452387"
+     }, 
+     "artistUrl": "/artist/Sufjan_Stevens/", 
+     "duration": 364, 
+     "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a1366408-2", 
+     "album": "Illinois", 
+     "isClean": false, 
+     "albumUrl": "/artist/Sufjan_Stevens/album/Illinois_1/", 
+     "shortUrl": "http://rd.io/x/QeHp7De0mqI/", 
+     "albumArtist": "Sufjan Stevens", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7De0mqI/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a1366408-2%3Aboxblur%2810%25%2C10%25%29%3Ba1366408-2%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba1366408-2%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 9, 
+     "albumArtistKey": "r89476", 
+     "key": "t15452387", 
+     "icon": "http://img02.cdn2-rdio.com/album/8/8/9/000000000014d988/2/square-200.jpg", 
+     "canSample": true, 
+     "name": "Chicago", 
+     "isExplicit": false, 
+     "artist": "Sufjan Stevens", 
+     "url": "/artist/Sufjan_Stevens/album/Illinois_1/track/Chicago/", 
+     "icon400": "http://img00.cdn2-rdio.com/album/8/8/9/000000000014d988/2/square-400.jpg", 
+     "artistKey": "r89476", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a1366408"
+    }
+   ], 
+   "key": "p9559185", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DPOjtA/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a1366408-2%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

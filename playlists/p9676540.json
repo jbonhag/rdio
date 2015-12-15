@@ -1,0 +1,59 @@
+{
+ "status": "ok", 
+ "result": {
+  "p9676540": {
+   "ownerKey": "s12495795", 
+   "name": "change", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=1624860-1&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DPM9L0/", 
+   "baseIcon": "album/c/1/b/000000000018cb1c/1/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1402198907.0, 
+   "url": "/people/walkaway/playlists/9676540/change/", 
+   "tracks": [
+    {
+     "key": "t17918953", 
+     "baseIcon": "album/c/1/b/000000000018cb1c/1/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr17918953"
+     }, 
+     "artistUrl": "/artist/Sylvia_Striplin/", 
+     "duration": 328, 
+     "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a1624860-1", 
+     "album": "20 Beautiful Songs for Your Summer Wedding", 
+     "isClean": false, 
+     "albumUrl": "/artist/Various_Artists/album/20_Beautiful_Songs_for_Your_Summer_Wedding/", 
+     "shortUrl": "http://rd.io/x/QeHp7DdeQyqt/", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DdeQyqt/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a1624860-1%3Aboxblur%2810%25%2C10%25%29%3Ba1624860-1%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba1624860-1%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 15, 
+     "radioKey": "sr17918953", 
+     "icon": "http://img00.cdn2-rdio.com/album/c/1/b/000000000018cb1c/1/square-200.jpg", 
+     "canSample": true, 
+     "name": "You Can't Turn Me Away", 
+     "isExplicit": false, 
+     "artist": "Sylvia Striplin", 
+     "url": "/artist/Sylvia_Striplin/album/20_Beautiful_Songs_for_Your_Summer_Wedding/track/You_Can%27t_Turn_Me_Away/", 
+     "icon400": "http://img02.cdn2-rdio.com/album/c/1/b/000000000018cb1c/1/square-400.jpg", 
+     "artistKey": "r47131", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a1624860"
+    }
+   ], 
+   "key": "p9676540", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DPM9L0/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a1624860-1%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

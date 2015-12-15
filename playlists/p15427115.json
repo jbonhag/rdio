@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p15427115": {
+   "ownerKey": "s12495795", 
+   "name": "current", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=2111611-1&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DO0NGo/", 
+   "baseIcon": "album/b/7/8/000000000020387b/1/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1449065011.0, 
+   "url": "/people/walkaway/playlists/15427115/current/", 
+   "tracks": [
+    {
+     "radioKey": "sr22693389", 
+     "baseIcon": "album/b/7/8/000000000020387b/1/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr22693389"
+     }, 
+     "artistUrl": "/artist/Nine_Inch_Nails/", 
+     "duration": 168, 
+     "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a2111611-1", 
+     "album": "Ghosts I-IV", 
+     "isClean": false, 
+     "albumUrl": "/artist/Nine_Inch_Nails/album/Ghosts_I-IV/", 
+     "shortUrl": "http://rd.io/x/QeHp7DdeCAdJ/", 
+     "albumArtist": "Nine Inch Nails", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DdeCAdJ/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a2111611-1%3Aboxblur%2810%25%2C10%25%29%3Ba2111611-1%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba2111611-1%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 1, 
+     "albumArtistKey": "r139534", 
+     "key": "t22693389", 
+     "icon": "http://rdio1img-a.akamaihd.net/album/b/7/8/000000000020387b/1/square-200.jpg", 
+     "canSample": true, 
+     "name": "01 Ghosts I", 
+     "isExplicit": false, 
+     "artist": "Nine Inch Nails", 
+     "url": "/artist/Nine_Inch_Nails/album/Ghosts_I-IV/track/01_Ghosts_I/", 
+     "icon400": "http://rdio3img-a.akamaihd.net/album/b/7/8/000000000020387b/1/square-400.jpg", 
+     "artistKey": "r139534", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a2111611"
+    }
+   ], 
+   "key": "p15427115", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DO0NGo/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a2111611-1%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

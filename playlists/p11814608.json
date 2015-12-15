@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p11814608": {
+   "ownerKey": "s12495795", 
+   "name": "last laugh", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=3672956-1&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DPrFJE/", 
+   "baseIcon": "album/c/7/b/0000000000380b7c/1/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1415240279.0, 
+   "url": "/people/walkaway/playlists/11814608/last_laugh/", 
+   "tracks": [
+    {
+     "radioKey": "sr39115066", 
+     "baseIcon": "album/c/7/b/0000000000380b7c/1/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr39115066"
+     }, 
+     "artistUrl": "/artist/Living_Legends/", 
+     "duration": 269, 
+     "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a3672956-1", 
+     "album": "Almost Famous", 
+     "isClean": false, 
+     "albumUrl": "/artist/Living_Legends/album/Almost_Famous/", 
+     "shortUrl": "http://rd.io/x/QeHp7DddBph-/", 
+     "albumArtist": "Living Legends", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DddBph-/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a3672956-1%3Aboxblur%2810%25%2C10%25%29%3Ba3672956-1%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba3672956-1%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 16, 
+     "albumArtistKey": "r23798", 
+     "key": "t39115066", 
+     "icon": "http://rdio1img-a.akamaihd.net/album/c/7/b/0000000000380b7c/1/square-200.jpg", 
+     "canSample": true, 
+     "name": "Nothing Less", 
+     "isExplicit": false, 
+     "artist": "Living Legends", 
+     "url": "/artist/Living_Legends/album/Almost_Famous/track/Nothing_Less/", 
+     "icon400": "http://rdio3img-a.akamaihd.net/album/c/7/b/0000000000380b7c/1/square-400.jpg", 
+     "artistKey": "r23798", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a3672956"
+    }
+   ], 
+   "key": "p11814608", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DPrFJE/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a3672956-1%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

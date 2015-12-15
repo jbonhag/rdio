@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p12855710": {
+   "ownerKey": "s12495795", 
+   "name": "she", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=307122-0&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DObe98/", 
+   "baseIcon": "album/2/b/f/000000000004afb2/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1424562772.0, 
+   "url": "/people/walkaway/playlists/12855710/she/", 
+   "tracks": [
+    {
+     "radioKey": "sr3793374", 
+     "baseIcon": "album/2/b/f/000000000004afb2/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr3793374"
+     }, 
+     "artistUrl": "/artist/Bobby_Vinton/", 
+     "duration": 167, 
+     "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a307122-0", 
+     "album": "Bobby Vinton's Greatest Hits", 
+     "isClean": false, 
+     "albumUrl": "/artist/Bobby_Vinton/album/Bobby_Vinton%27s_Greatest_Hits_1/", 
+     "shortUrl": "http://rd.io/x/QeHp7Ddms58/", 
+     "albumArtist": "Bobby Vinton", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7Ddms58/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a307122-0%3Aboxblur%2810%25%2C10%25%29%3Ba307122-0%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba307122-0%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 1, 
+     "albumArtistKey": "r133394", 
+     "key": "t3793374", 
+     "icon": "http://rdio3img-a.akamaihd.net/album/2/b/f/000000000004afb2/square-200.jpg", 
+     "canSample": true, 
+     "name": "Blue Velvet", 
+     "isExplicit": false, 
+     "artist": "Bobby Vinton", 
+     "url": "/artist/Bobby_Vinton/album/Bobby_Vinton%27s_Greatest_Hits_1/track/Blue_Velvet/", 
+     "icon400": "http://rdio1img-a.akamaihd.net/album/2/b/f/000000000004afb2/square-400.jpg", 
+     "artistKey": "r133394", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a307122"
+    }
+   ], 
+   "key": "p12855710", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DObe98/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a307122-0%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

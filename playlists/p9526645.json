@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p9526645": {
+   "ownerKey": "s12495795", 
+   "name": "amaze", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=370191-3&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DPODzQ/", 
+   "baseIcon": "album/f/0/6/000000000005a60f/3/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1401245505.0, 
+   "url": "/people/walkaway/playlists/9526645/amaze/", 
+   "tracks": [
+    {
+     "radioKey": "sr4523629", 
+     "baseIcon": "album/f/0/6/000000000005a60f/3/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr4523629"
+     }, 
+     "artistUrl": "/artist/Deep_Puddle_Dynamics/", 
+     "duration": 356, 
+     "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a370191-3", 
+     "album": "The Taste Of Rain... Why Kneel", 
+     "isClean": false, 
+     "albumUrl": "/artist/Deep_Puddle_Dynamics/album/The_Taste_Of_Rain..._Why_Kneel/", 
+     "shortUrl": "http://rd.io/x/QeHp7DcaVCw/", 
+     "albumArtist": "Deep Puddle Dynamics", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DcaVCw/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a370191-3%3Aboxblur%2810%25%2C10%25%29%3Ba370191-3%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba370191-3%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 6, 
+     "albumArtistKey": "r430540", 
+     "key": "t4523629", 
+     "icon": "http://img00.cdn2-rdio.com/album/f/0/6/000000000005a60f/3/square-200.jpg", 
+     "canSample": true, 
+     "name": "The Scarecrow Speaks", 
+     "isExplicit": false, 
+     "artist": "Deep Puddle Dynamics", 
+     "url": "/artist/Deep_Puddle_Dynamics/album/The_Taste_Of_Rain..._Why_Kneel/track/The_Scarecrow_Speaks/", 
+     "icon400": "http://img02.cdn2-rdio.com/album/f/0/6/000000000005a60f/3/square-400.jpg", 
+     "artistKey": "r430540", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a370191"
+    }
+   ], 
+   "key": "p9526645", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DPODzQ/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a370191-3%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

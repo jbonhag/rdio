@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p15218480": {
+   "ownerKey": "s12495795", 
+   "name": "aesop", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=242840-1&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DO3ZXE/", 
+   "baseIcon": "album/8/9/4/000000000003b498/1/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1447210061.0, 
+   "url": "/people/walkaway/playlists/15218480/aesop/", 
+   "tracks": [
+    {
+     "radioKey": "sr2954474", 
+     "baseIcon": "album/8/9/4/000000000003b498/1/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr2954474"
+     }, 
+     "artistUrl": "/artist/Cal_Tjader/", 
+     "duration": 302, 
+     "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a242840-1", 
+     "album": "Several Shades Of Jade / Breeze From The East", 
+     "isClean": false, 
+     "albumUrl": "/artist/Cal_Tjader/album/Several_Shades_Of_Jade_/_Breeze_From_The_East/", 
+     "shortUrl": "http://rd.io/x/QeHp7DdyRqs/", 
+     "albumArtist": "Cal Tjader", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DdyRqs/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a242840-1%3Aboxblur%2810%25%2C10%25%29%3Ba242840-1%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba242840-1%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 2, 
+     "albumArtistKey": "r6452", 
+     "key": "t2954474", 
+     "icon": "http://rdio3img-a.akamaihd.net/album/8/9/4/000000000003b498/1/square-200.jpg", 
+     "canSample": true, 
+     "name": "Cherry Blossoms", 
+     "isExplicit": false, 
+     "artist": "Cal Tjader", 
+     "url": "/artist/Cal_Tjader/album/Several_Shades_Of_Jade_/_Breeze_From_The_East/track/Cherry_Blossoms/", 
+     "icon400": "http://rdio1img-a.akamaihd.net/album/8/9/4/000000000003b498/1/square-400.jpg", 
+     "artistKey": "r6452", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a242840"
+    }
+   ], 
+   "key": "p15218480", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DO3ZXE/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a242840-1%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

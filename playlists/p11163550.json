@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p11163550": {
+   "ownerKey": "s12495795", 
+   "name": "aw", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=53097-1&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DP1Bd8/", 
+   "baseIcon": "album/9/6/f/000000000000cf69/1/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1410417238.0, 
+   "url": "/people/walkaway/playlists/11163550/aw/", 
+   "tracks": [
+    {
+     "radioKey": "sr660613", 
+     "baseIcon": "album/9/6/f/000000000000cf69/1/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr660613"
+     }, 
+     "artistUrl": "/artist/Bobby_Caldwell/", 
+     "duration": 286, 
+     "dynamicIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a53097-1", 
+     "album": "What You Won't Do For Love", 
+     "isClean": false, 
+     "albumUrl": "/artist/Bobby_Caldwell/album/What_You_Won%27t_Do_For_Love/", 
+     "shortUrl": "http://rd.io/x/QeHp7DdVRsQ/", 
+     "albumArtist": "Bobby Caldwell", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DdVRsQ/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a53097-1%3Aboxblur%2810%25%2C10%25%29%3Ba53097-1%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba53097-1%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 6, 
+     "albumArtistKey": "r37815", 
+     "key": "t660613", 
+     "icon": "http://rdio1img-a.akamaihd.net/album/9/6/f/000000000000cf69/1/square-200.jpg", 
+     "canSample": true, 
+     "name": "What You Won't Do For Love", 
+     "isExplicit": false, 
+     "artist": "Bobby Caldwell", 
+     "url": "/artist/Bobby_Caldwell/album/What_You_Won%27t_Do_For_Love/track/What_You_Won%27t_Do_For_Love/", 
+     "icon400": "http://rdio3img-a.akamaihd.net/album/9/6/f/000000000000cf69/1/square-400.jpg", 
+     "artistKey": "r37815", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a53097"
+    }
+   ], 
+   "key": "p11163550", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DP1Bd8/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a53097-1%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

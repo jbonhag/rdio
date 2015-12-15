@@ -1,0 +1,59 @@
+{
+ "status": "ok", 
+ "result": {
+  "p11929467": {
+   "ownerKey": "s12495795", 
+   "name": "close", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=3486811-3&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DPpVTo/", 
+   "baseIcon": "album/b/5/4/000000000035345b/3/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1416230162.0, 
+   "url": "/people/walkaway/playlists/11929467/close/", 
+   "tracks": [
+    {
+     "key": "t37037604", 
+     "baseIcon": "album/b/5/4/000000000035345b/3/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr37037604"
+     }, 
+     "artistUrl": "/artist/Thom_Yorke/", 
+     "duration": 432, 
+     "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a3486811-3", 
+     "album": "The Cinematic Orchestra Late Night Tales", 
+     "isClean": false, 
+     "albumUrl": "/artist/Various_Artists/album/The_Cinematic_Orchestra_Late_Night_Tales/", 
+     "shortUrl": "http://rd.io/x/QeHp7DddZ2dg/", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7DddZ2dg/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a3486811-3%3Aboxblur%2810%25%2C10%25%29%3Ba3486811-3%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba3486811-3%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 8, 
+     "radioKey": "sr37037604", 
+     "icon": "http://rdio1img-a.akamaihd.net/album/b/5/4/000000000035345b/3/square-200.jpg", 
+     "canSample": true, 
+     "name": "BLACK SWAN", 
+     "isExplicit": false, 
+     "artist": "Thom Yorke", 
+     "url": "/artist/Thom_Yorke/album/The_Cinematic_Orchestra_Late_Night_Tales/track/BLACK_SWAN/", 
+     "icon400": "http://rdio3img-a.akamaihd.net/album/b/5/4/000000000035345b/3/square-400.jpg", 
+     "artistKey": "r155429", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a3486811"
+    }
+   ], 
+   "key": "p11929467", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DPpVTo/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a3486811-3%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

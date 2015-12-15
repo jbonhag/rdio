@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p15429241": {
+   "ownerKey": "s12495795", 
+   "name": "skip", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=240122-0&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DO0PDg/", 
+   "baseIcon": "album/a/f/9/000000000003a9fa/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1449093590.0, 
+   "url": "/people/walkaway/playlists/15429241/skip/", 
+   "tracks": [
+    {
+     "radioKey": "sr2920601", 
+     "baseIcon": "album/a/f/9/000000000003a9fa/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr2920601"
+     }, 
+     "artistUrl": "/artist/Outkast/", 
+     "duration": 525, 
+     "dynamicIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a240122-0", 
+     "album": "Aquemini", 
+     "isClean": false, 
+     "albumUrl": "/artist/Outkast/album/Aquemini/", 
+     "shortUrl": "http://rd.io/x/QeHp7Ddzwtg/", 
+     "albumArtist": "Outkast", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7Ddzwtg/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages2-a.akamaihd.net/?l=a240122-0%3Aboxblur%2810%25%2C10%25%29%3Ba240122-0%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba240122-0%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 15, 
+     "albumArtistKey": "r91283", 
+     "key": "t2920601", 
+     "icon": "http://img02.cdn2-rdio.com/album/a/f/9/000000000003a9fa/square-200.jpg", 
+     "canSample": true, 
+     "name": "Liberation", 
+     "isExplicit": true, 
+     "artist": "Outkast", 
+     "url": "/artist/Outkast/album/Aquemini/track/Liberation/", 
+     "icon400": "http://img00.cdn2-rdio.com/album/a/f/9/000000000003a9fa/square-400.jpg", 
+     "artistKey": "r91283", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a240122"
+    }
+   ], 
+   "key": "p15429241", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DO0PDg/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages1-a.akamaihd.net/?l=a240122-0%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}

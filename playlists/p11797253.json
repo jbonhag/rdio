@@ -1,0 +1,61 @@
+{
+ "status": "ok", 
+ "result": {
+  "p11797253": {
+   "ownerKey": "s12495795", 
+   "name": "The Entire Problem", 
+   "icon": "http://rdio0-a.akamaihd.net/_is/?aid=240275-0&w=200&h=200", 
+   "shortUrl": "http://rd.io/x/QeHp7DPrUUQ/", 
+   "baseIcon": "album/3/9/a/000000000003aa93/square-200.jpg", 
+   "ownerIcon": "user/3/b/b/0000000000beabb3/2/square-100.jpg", 
+   "length": 1, 
+   "lastUpdated": 1415095352.0, 
+   "url": "/people/walkaway/playlists/11797253/The_Entire_Problem/", 
+   "tracks": [
+    {
+     "radioKey": "sr2921567", 
+     "baseIcon": "album/3/9/a/000000000003aa93/square-200.jpg", 
+     "canDownloadAlbumOnly": false, 
+     "radio": {
+      "type": "sr", 
+      "key": "sr2921567"
+     }, 
+     "artistUrl": "/artist/Roy_Orbison/", 
+     "duration": 171, 
+     "dynamicIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a240275-0", 
+     "album": "Roy Orbison - 16 Biggest Hits", 
+     "isClean": false, 
+     "albumUrl": "/artist/Roy_Orbison/album/Roy_Orbison_-_16_Biggest_Hits/", 
+     "shortUrl": "http://rd.io/x/QeHp7Ddzxh4/", 
+     "albumArtist": "Roy Orbison", 
+     "canStream": true, 
+     "embedUrl": "https://rd.io/e/QeHp7Ddzxh4/", 
+     "type": "t", 
+     "gridIcon": "http://rdiodynimages3-a.akamaihd.net/?l=a240275-0%3Aboxblur%2810%25%2C10%25%29%3Ba240275-0%3Aprimary%280.65%29%3B%240%3Aoverlay%28%241%29%3Ba240275-0%3Apad%2850%25%29%3B%242%3Aoverlay%28%243%29", 
+     "price": null, 
+     "trackNum": 2, 
+     "albumArtistKey": "r5527", 
+     "key": "t2921567", 
+     "icon": "http://img02.cdn2-rdio.com/album/3/9/a/000000000003aa93/square-200.jpg", 
+     "canSample": true, 
+     "name": "Blue Angel", 
+     "isExplicit": false, 
+     "artist": "Roy Orbison", 
+     "url": "/artist/Roy_Orbison/album/Roy_Orbison_-_16_Biggest_Hits/track/Blue_Angel/", 
+     "icon400": "http://img00.cdn2-rdio.com/album/3/9/a/000000000003aa93/square-400.jpg", 
+     "artistKey": "r5527", 
+     "canDownload": false, 
+     "length": 1, 
+     "canTether": false, 
+     "albumKey": "a240275"
+    }
+   ], 
+   "key": "p11797253", 
+   "ownerUrl": "/people/walkaway/", 
+   "embedUrl": "https://rd.io/e/QeHp7DPrUUQ/", 
+   "owner": "Jeff Bonhag", 
+   "type": "p", 
+   "dynamicIcon": "http://rdiodynimages0-a.akamaihd.net/?l=a240275-0%401/4%3B_%3Agrid%28%240%29"
+  }
+ }
+}
