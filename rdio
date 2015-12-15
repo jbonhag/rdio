@@ -1,6 +1,6 @@
 #!/bin/bash
 
-URL=http://$(docker-machine ip default):5000
+URL=http://0.0.0.0:32768
 
 play() {
   curl $URL --data "command=play&key=$1&initialPosition=$2"
@@ -92,6 +92,10 @@ search() {
   curl $URL/search --data "query=$1"
 }
 
+first() {
+  search "$1" | jq .result.results[0]
+}
+
 case $1 in
   play) play $2
     ;;
@@ -133,6 +137,8 @@ case $1 in
     ;;
   search) search "$2"
     ;;
-  *) echo "Usage: $0 play|pause|stop|next|previous|seek|setShuffle|setRepeat|queue|setVolume|setMute|playQueuedTrack|moveQueuedSource|clearQueue|setCurrentPosition|removeFromQueue|sendState|startFrequencyAnalyzer|stopFrequencyAnalyzer|search"
+  first) first "$2"
+    ;;
+  *) echo "Usage: $0 play|pause|stop|next|previous|seek|setShuffle|setRepeat|queue|setVolume|setMute|playQueuedTrack|moveQueuedSource|clearQueue|setCurrentPosition|removeFromQueue|sendState|startFrequencyAnalyzer|stopFrequencyAnalyzer|search|first"
     exit 1
 esac
