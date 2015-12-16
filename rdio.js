@@ -114,10 +114,8 @@ ws.onmessage = function (event) {
 
 function search(query) {
   var request = new XMLHttpRequest();
-  request.addEventListener('load', function() {
-    console.log(JSON.parse(this.response));
-  });
   request.open("POST", "/search");
   request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
   request.send("query="+encodeURIComponent(query));
+  return request;
 }
