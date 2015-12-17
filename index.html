@@ -25,14 +25,13 @@
   <script type="text/babel">
   var SearchResult = React.createClass({
     handleClick: function() {
-      console.log('handleClick');
       var key = this._reactInternalInstance._currentElement.key;
       apiswf.rdio_play(key);
     },
     render: function() {
       return (
         <li>
-          <a onClick={this.handleClick}>{this.props.artist} - {this.props.name}</a>
+          <a onClick={this.handleClick}>{this.props.artist} - {this.props.name} ({this.props.type})</a>
         </li>
       );
     }
@@ -45,7 +44,7 @@
     render: function() {
       var searchResultNodes = this.props.results.map(function(result) {
         return (
-          <SearchResult key={result.key} artist={result.artist} name={result.name} />
+          <SearchResult key={result.key} artist={result.artist} name={result.name} type={result.type} />
         );
       });
       return (

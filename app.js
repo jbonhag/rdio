@@ -110,7 +110,7 @@ var search = function(query, callback) {
       callback(null, JSON.parse(body));
     });
   });
-  req.write('access_token='+access_token+'&method=search&query='+encodeURIComponent(query)+'&types=t');
+  req.write('access_token='+access_token+'&method=search&query='+encodeURIComponent(query)+'&types=t,a');
   req.end();
 };
 
