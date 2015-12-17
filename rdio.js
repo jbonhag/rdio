@@ -6,6 +6,12 @@ callbacks.ready = function() {
 };
 
 callbacks.playingTrackChanged = function(track) {
+  if (track !== null) {
+    console.log(track);
+  }
+}
+
+function setAlbumArt(track) {
   document.body.style.backgroundImage = "url(" + track.bigIcon1200 + ")";
   document.body.style.backgroundRepeat = "no-repeat";
   document.body.style.backgroundX = "center";
@@ -112,12 +118,30 @@ ws.onmessage = function (event) {
   }
 };
 
-function search(query) {
-  var request = new XMLHttpRequest();
-  request.addEventListener('load', function() {
-    console.log(JSON.parse(this.response));
+Rdio = {
+  search: function(query, callback) {
+    var request = new XMLHttpRequest();
+    request.addEventListener('load', function() {
+      var response = JSON.parse(this.response);
+      if (response.status === 'ok') {
+        callback(response.result.results);
+      }
+    });
+    request.open("POST", "/search");
+    request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    request.send("query="+encodeURIComponent(query));
+  }
+};
+
+function getTrackNames() {
+  return Object.keys(localStorage).map(function(key) {
+    var track = JSON.parse(localStorage[key]);
+    return track.name;
   });
-  request.open("POST", "/search");
-  request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-  request.send("query="+encodeURIComponent(query));
+}
+
+function getTracks() {
+  return Object.keys(localStorage).map(function(key) {
+    return JSON.parse(localStorage[key]);
+  });
 }
