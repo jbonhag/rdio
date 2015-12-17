@@ -1,7 +1,7 @@
+var fs = require('fs');
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
-var fs = require('fs');
 var WebSocketServer = require("ws").Server;
 var https = require('https');
 var port = process.env.PORT || 5000;
@@ -74,7 +74,7 @@ app.get('/rdio.js', function (req, res) {
 app.get('/token.js', function(req, res) {
   res.set('Content-Type', 'text/javascript');
   res.send('var playback_token = "'+playback_token+'";\n' +
-           'var domain = "'+domain+'";\n');
+    'var domain = "'+domain+'";\n');
 });
 
 var server = app.listen(port, function () {
@@ -85,12 +85,12 @@ var server = app.listen(port, function () {
 });
 
 var wss = new WebSocketServer({server: server})
-console.log("websocket server created")
-wss.broadcast = function(data) {
-  wss.clients.forEach(function(client) {
-    client.send(data);
-  });
-};
+  console.log("websocket server created")
+  wss.broadcast = function(data) {
+    wss.clients.forEach(function(client) {
+      client.send(data);
+    });
+  };
 
 var search = function(query, callback) {
   var options = {

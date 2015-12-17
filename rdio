@@ -1,6 +1,6 @@
 #!/bin/bash
 
-URL=http://0.0.0.0:5000
+URL=http://192.168.99.100:5000
 
 play() {
   curl $URL --data "command=play&key=$1&initialPosition=$2"

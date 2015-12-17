@@ -7,7 +7,7 @@ callbacks.ready = function() {
 
 callbacks.playingTrackChanged = function(track) {
   if (track !== null) {
-    console.log(track);
+    setAlbumArt(track);
   }
 }
 
